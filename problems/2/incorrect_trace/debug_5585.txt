@@ -1,0 +1,199 @@
+{'line': '64', 'src': 'int main() {', 'storage': {'q': '{top = -135900000, mys = 0x2e78786362696c67, maxsize = 73728}', 'n': '1819242352', 'mymax': '32767', 'b': '0', 't': '32767'}}
+{'line': '65', 'src': 'Mystack<int>q;', 'storage': {'q': '{top = -135900000, mys = 0x2e78786362696c67, maxsize = 73728}', 'n': '1819242352', 'mymax': '32767', 'b': '0', 't': '32767'}}
+{'line': '14', 'src': 'Mystack() :top(-1), maxsize(MAXSIZE) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '15', 'src': 'mys = new T[maxsize];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '16', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '67', 'src': 'cin >> n;', 'storage': {'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '1819242352', 'mymax': '32767', 'b': '0', 't': '32767'}}
+{'line': '68', 'src': 'int mymax=0;', 'storage': {'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '32767', 'b': '0', 't': '32767'}}
+{'line': '69', 'src': 'int b = 0;', 'storage': {'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '0', 't': '32767'}}
+{'line': '70', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '0', 'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '0', 't': '32767'}}
+{'line': '72', 'src': 'cin >> m;', 'storage': {'m': '-135899912', 'i': '0', 'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '0', 't': '32767'}}
+{'line': '74', 'src': 'if (q.Empty()) {', 'storage': {'m': '3', 'i': '0', 'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '0', 't': '32767'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '75', 'src': 'q.Push(m);', 'storage': {'m': '3', 'i': '0', 'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '0', 't': '32767'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '76', 'src': 'b = m;', 'storage': {'m': '3', 'i': '0', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '0', 't': '32767'}}
+{'line': '70', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '0', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3', 't': '32767'}}
+{'line': '72', 'src': 'cin >> m;', 'storage': {'m': '3', 'i': '1', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3', 't': '32767'}}
+{'line': '74', 'src': 'if (q.Empty()) {', 'storage': {'m': '10', 'i': '1', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3', 't': '32767'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '79', 'src': 'int t = q.Top();', 'storage': {'t': '32767', 'm': '10', 'i': '1', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '80', 'src': 'q.Pop();', 'storage': {'t': '32767', 'm': '10', 'i': '1', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '49', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '50', 'src': 'top--;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '52', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '81', 'src': 'if (q.Empty()) {', 'storage': {'t': '32767', 'm': '10', 'i': '1', 'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '82', 'src': 'if (t > m) {', 'storage': {'t': '32767', 'm': '10', 'i': '1', 'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '87', 'src': 'q.Push(t);', 'storage': {'t': '32767', 'm': '10', 'i': '1', 'q': '{top = -1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '88', 'src': 'q.Push(m);', 'storage': {'t': '32767', 'm': '10', 'i': '1', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '10'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '10'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '10'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '10'}}
+{'line': '89', 'src': 'b = t;', 'storage': {'t': '32767', 'm': '10', 'i': '1', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '70', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3', 't': '32767'}}
+{'line': '72', 'src': 'cin >> m;', 'storage': {'m': '10', 'i': '2', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3', 't': '32767'}}
+{'line': '74', 'src': 'if (q.Empty()) {', 'storage': {'m': '4', 'i': '2', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3', 't': '32767'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '79', 'src': 'int t = q.Top();', 'storage': {'t': '32767', 'm': '4', 'i': '2', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '80', 'src': 'q.Pop();', 'storage': {'t': '32767', 'm': '4', 'i': '2', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '49', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '50', 'src': 'top--;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '52', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '81', 'src': 'if (q.Empty()) {', 'storage': {'t': '32767', 'm': '4', 'i': '2', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '93', 'src': 'if (t > m) {', 'storage': {'t': '32767', 'm': '4', 'i': '2', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '94', 'src': 'mymax = lmax(t - b, mymax);', 'storage': {'t': '32767', 'm': '4', 'i': '2', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '60', 'src': 'return a > b ? a : b;', 'storage': {'a': '7', 'b': '0'}}
+{'line': '61', 'src': '}', 'storage': {'a': '7', 'b': '0'}}
+{'line': '95', 'src': 't = q.Top();', 'storage': {'t': '32767', 'm': '4', 'i': '2', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '96', 'src': 'while (t > m) {', 'storage': {'t': '32767', 'm': '4', 'i': '2', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '100', 'src': 'q.Push(m);', 'storage': {'t': '32767', 'm': '4', 'i': '2', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '4'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '4'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '4'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '4'}}
+{'line': '70', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '2', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '72', 'src': 'cin >> m;', 'storage': {'m': '4', 'i': '3', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '74', 'src': 'if (q.Empty()) {', 'storage': {'m': '5', 'i': '3', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '79', 'src': 'int t = q.Top();', 'storage': {'t': '32767', 'm': '5', 'i': '3', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '80', 'src': 'q.Pop();', 'storage': {'t': '32767', 'm': '5', 'i': '3', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '49', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '50', 'src': 'top--;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '52', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '81', 'src': 'if (q.Empty()) {', 'storage': {'t': '32767', 'm': '5', 'i': '3', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '93', 'src': 'if (t > m) {', 'storage': {'t': '32767', 'm': '5', 'i': '3', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '103', 'src': 'q.Push(t);', 'storage': {'t': '32767', 'm': '5', 'i': '3', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '4'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '4'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '4'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '4'}}
+{'line': '104', 'src': 'q.Push(m);', 'storage': {'t': '32767', 'm': '5', 'i': '3', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '5'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '5'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '5'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '5'}}
+{'line': '70', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '3', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '72', 'src': 'cin >> m;', 'storage': {'m': '5', 'i': '4', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '74', 'src': 'if (q.Empty()) {', 'storage': {'m': '6', 'i': '4', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '79', 'src': 'int t = q.Top();', 'storage': {'t': '32767', 'm': '6', 'i': '4', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '80', 'src': 'q.Pop();', 'storage': {'t': '32767', 'm': '6', 'i': '4', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '49', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '50', 'src': 'top--;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '52', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '81', 'src': 'if (q.Empty()) {', 'storage': {'t': '32767', 'm': '6', 'i': '4', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '93', 'src': 'if (t > m) {', 'storage': {'t': '32767', 'm': '6', 'i': '4', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '103', 'src': 'q.Push(t);', 'storage': {'t': '32767', 'm': '6', 'i': '4', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '5'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '5'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '5'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '5'}}
+{'line': '104', 'src': 'q.Push(m);', 'storage': {'t': '32767', 'm': '6', 'i': '4', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '6'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '6'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '6'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '6'}}
+{'line': '70', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '4', 'q': '{top = 3, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '72', 'src': 'cin >> m;', 'storage': {'m': '6', 'i': '5', 'q': '{top = 3, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '74', 'src': 'if (q.Empty()) {', 'storage': {'m': '3', 'i': '5', 'q': '{top = 3, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '79', 'src': 'int t = q.Top();', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 3, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '80', 'src': 'q.Pop();', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 3, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '49', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '50', 'src': 'top--;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '52', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '81', 'src': 'if (q.Empty()) {', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '31', 'src': 'if (top == -1) return true;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '32', 'src': 'else return false;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '33', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '93', 'src': 'if (t > m) {', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '94', 'src': 'mymax = lmax(t - b, mymax);', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '60', 'src': 'return a > b ? a : b;', 'storage': {'a': '3', 'b': '7'}}
+{'line': '61', 'src': '}', 'storage': {'a': '3', 'b': '7'}}
+{'line': '95', 'src': 't = q.Top();', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '96', 'src': 'while (t > m) {', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '97', 'src': 'q.Pop();', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 2, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '49', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '50', 'src': 'top--;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '52', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '98', 'src': 't = q.Top();', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '96', 'src': 'while (t > m) {', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '97', 'src': 'q.Pop();', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '49', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '50', 'src': 'top--;', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '52', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '98', 'src': 't = q.Top();', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '96', 'src': 'while (t > m) {', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '100', 'src': 'q.Push(m);', 'storage': {'t': '32767', 'm': '3', 'i': '5', 'q': '{top = 0, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '36', 'src': 'if (top + 1 < maxsize) {', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '37', 'src': 'top++;', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '38', 'src': 'mys[top] = t;', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '40', 'src': '}', 'storage': {'this': '0x7fffffffdf30', 't': '3'}}
+{'line': '70', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '5', 'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '109', 'src': 'int t = q.Top();', 'storage': {'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '32767'}}
+{'line': '43', 'src': 'if (top > -1) {', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '44', 'src': 'return mys[top];', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '46', 'src': '}', 'storage': {'this': '0x7fffffffdf30'}}
+{'line': '110', 'src': 'mymax = lmax(mymax, t-b);', 'storage': {'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '3'}}
+{'line': '60', 'src': 'return a > b ? a : b;', 'storage': {'a': '7', 'b': '0'}}
+{'line': '61', 'src': '}', 'storage': {'a': '7', 'b': '0'}}
+{'line': '111', 'src': 'cout << mymax;', 'storage': {'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '3'}}
+{'line': '113', 'src': 'return 0;', 'storage': {'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '3'}}
+{'line': '114', 'src': '}', 'storage': {'q': '{top = 1, mys = 0x55555556b2b0, maxsize = 4095}', 'n': '6', 'mymax': '7', 'b': '3', 't': '3'}}

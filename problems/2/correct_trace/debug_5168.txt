@@ -1,0 +1,32 @@
+{'line': '13', 'src': 'int main() {', 'storage': {'n': '-139903336', 'nums': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'input': '32767', 'money': '-135840352', 'minget': '1431671456'}}
+{'line': '15', 'src': 'cin >> n;', 'storage': {'n': '-139903336', 'nums': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'input': '32767', 'money': '-135840352', 'minget': '1431671456'}}
+{'line': '16', 'src': 'stack<int> nums;', 'storage': {'n': '6', 'nums': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'input': '32767', 'money': '-135840352', 'minget': '1431671456'}}
+{'line': '18', 'src': 'int money=0;', 'storage': {'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '32767', 'money': '-135840352', 'minget': '1431671456'}}
+{'line': '19', 'src': 'int minget=-1;', 'storage': {'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '32767', 'money': '0', 'minget': '1431671456'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '21845', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '32767', 'money': '0', 'minget': '-1'}}
+{'line': '21', 'src': 'cin >> input;', 'storage': {'i': '0', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '32767', 'money': '0', 'minget': '-1'}}
+{'line': '22', 'src': 'if (minget==-1 || input < minget){', 'storage': {'i': '0', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '0', 'minget': '-1'}}
+{'line': '23', 'src': 'minget = input;', 'storage': {'i': '0', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '0', 'minget': '-1'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '0', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '0', 'minget': '3'}}
+{'line': '21', 'src': 'cin >> input;', 'storage': {'i': '1', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '0', 'minget': '3'}}
+{'line': '22', 'src': 'if (minget==-1 || input < minget){', 'storage': {'i': '1', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '10', 'money': '0', 'minget': '3'}}
+{'line': '25', 'src': 'money = max(input - minget,money);', 'storage': {'i': '1', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '10', 'money': '0', 'minget': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '1', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '10', 'money': '7', 'minget': '3'}}
+{'line': '21', 'src': 'cin >> input;', 'storage': {'i': '2', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '10', 'money': '7', 'minget': '3'}}
+{'line': '22', 'src': 'if (minget==-1 || input < minget){', 'storage': {'i': '2', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '4', 'money': '7', 'minget': '3'}}
+{'line': '25', 'src': 'money = max(input - minget,money);', 'storage': {'i': '2', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '4', 'money': '7', 'minget': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '2', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '4', 'money': '7', 'minget': '3'}}
+{'line': '21', 'src': 'cin >> input;', 'storage': {'i': '3', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '4', 'money': '7', 'minget': '3'}}
+{'line': '22', 'src': 'if (minget==-1 || input < minget){', 'storage': {'i': '3', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '5', 'money': '7', 'minget': '3'}}
+{'line': '25', 'src': 'money = max(input - minget,money);', 'storage': {'i': '3', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '5', 'money': '7', 'minget': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '3', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '5', 'money': '7', 'minget': '3'}}
+{'line': '21', 'src': 'cin >> input;', 'storage': {'i': '4', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '5', 'money': '7', 'minget': '3'}}
+{'line': '22', 'src': 'if (minget==-1 || input < minget){', 'storage': {'i': '4', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '6', 'money': '7', 'minget': '3'}}
+{'line': '25', 'src': 'money = max(input - minget,money);', 'storage': {'i': '4', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '6', 'money': '7', 'minget': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '4', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '6', 'money': '7', 'minget': '3'}}
+{'line': '21', 'src': 'cin >> input;', 'storage': {'i': '5', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '6', 'money': '7', 'minget': '3'}}
+{'line': '22', 'src': 'if (minget==-1 || input < minget){', 'storage': {'i': '5', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '7', 'minget': '3'}}
+{'line': '25', 'src': 'money = max(input - minget,money);', 'storage': {'i': '5', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '7', 'minget': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '5', 'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '7', 'minget': '3'}}
+{'line': '28', 'src': 'cout << money;', 'storage': {'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '7', 'minget': '3'}}
+{'line': '29', 'src': '}', 'storage': {'n': '6', 'nums': 'std::stack wrapping: std::deque with 0 elements', 'input': '3', 'money': '7', 'minget': '3'}}

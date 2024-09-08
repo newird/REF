@@ -1,0 +1,48 @@
+{'line': '5', 'src': 'int main(){', 'storage': {'buy_now': '-135900000', 'sell_now': '32767', 'better_buy': '0', 'better_sell': '1651076199', 'n': '-139900694', 'p': '32767', 'best': '779647075'}}
+{'line': '6', 'src': 'int buy_now=INT32_MAX,sell_now=0,better_buy=0,better_sell=0;', 'storage': {'buy_now': '-135900000', 'sell_now': '32767', 'better_buy': '0', 'better_sell': '1651076199', 'n': '-139900694', 'p': '32767', 'best': '779647075'}}
+{'line': '8', 'src': 'cin >> n;', 'storage': {'buy_now': '2147483647', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '-139900694', 'p': '32767', 'best': '779647075'}}
+{'line': '10', 'src': 'if(n==1){cout << 0;return 0;}', 'storage': {'buy_now': '2147483647', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '32767', 'best': '779647075'}}
+{'line': '12', 'src': 'int best=0;', 'storage': {'buy_now': '2147483647', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '32767', 'best': '779647075'}}
+{'line': '15', 'src': 'for(int i=0;i<n;i++){', 'storage': {'i': '73728', 'buy_now': '2147483647', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '32767', 'best': '0'}}
+{'line': '16', 'src': 'cin >> p;', 'storage': {'i': '0', 'buy_now': '2147483647', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '32767', 'best': '0'}}
+{'line': '17', 'src': 'if(p<buy_now){', 'storage': {'i': '0', 'buy_now': '2147483647', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '3', 'best': '0'}}
+{'line': '18', 'src': 'buy_now=p;', 'storage': {'i': '0', 'buy_now': '2147483647', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '3', 'best': '0'}}
+{'line': '19', 'src': 'better_sell=0;', 'storage': {'i': '0', 'buy_now': '3', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '3', 'best': '0'}}
+{'line': '20', 'src': 'sell_now=p;', 'storage': {'i': '0', 'buy_now': '3', 'sell_now': '0', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '3', 'best': '0'}}
+{'line': '22', 'src': 'if(p>sell_now){', 'storage': {'i': '0', 'buy_now': '3', 'sell_now': '3', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '3', 'best': '0'}}
+{'line': '26', 'src': 'if(better_sell==1){', 'storage': {'i': '0', 'buy_now': '3', 'sell_now': '3', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '3', 'best': '0'}}
+{'line': '15', 'src': 'for(int i=0;i<n;i++){', 'storage': {'i': '0', 'buy_now': '3', 'sell_now': '3', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '3', 'best': '0'}}
+{'line': '16', 'src': 'cin >> p;', 'storage': {'i': '1', 'buy_now': '3', 'sell_now': '3', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '3', 'best': '0'}}
+{'line': '17', 'src': 'if(p<buy_now){', 'storage': {'i': '1', 'buy_now': '3', 'sell_now': '3', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '10', 'best': '0'}}
+{'line': '22', 'src': 'if(p>sell_now){', 'storage': {'i': '1', 'buy_now': '3', 'sell_now': '3', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '10', 'best': '0'}}
+{'line': '23', 'src': 'better_sell=1;', 'storage': {'i': '1', 'buy_now': '3', 'sell_now': '3', 'better_buy': '0', 'better_sell': '0', 'n': '6', 'p': '10', 'best': '0'}}
+{'line': '24', 'src': 'sell_now=p;', 'storage': {'i': '1', 'buy_now': '3', 'sell_now': '3', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '10', 'best': '0'}}
+{'line': '26', 'src': 'if(better_sell==1){', 'storage': {'i': '1', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '10', 'best': '0'}}
+{'line': '27', 'src': 'best=sell_now-buy_now>best?sell_now-buy_now:best;', 'storage': {'i': '1', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '10', 'best': '0'}}
+{'line': '15', 'src': 'for(int i=0;i<n;i++){', 'storage': {'i': '1', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '10', 'best': '7'}}
+{'line': '16', 'src': 'cin >> p;', 'storage': {'i': '2', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '10', 'best': '7'}}
+{'line': '17', 'src': 'if(p<buy_now){', 'storage': {'i': '2', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '4', 'best': '7'}}
+{'line': '22', 'src': 'if(p>sell_now){', 'storage': {'i': '2', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '4', 'best': '7'}}
+{'line': '26', 'src': 'if(better_sell==1){', 'storage': {'i': '2', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '4', 'best': '7'}}
+{'line': '27', 'src': 'best=sell_now-buy_now>best?sell_now-buy_now:best;', 'storage': {'i': '2', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '4', 'best': '7'}}
+{'line': '15', 'src': 'for(int i=0;i<n;i++){', 'storage': {'i': '2', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '4', 'best': '7'}}
+{'line': '16', 'src': 'cin >> p;', 'storage': {'i': '3', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '4', 'best': '7'}}
+{'line': '17', 'src': 'if(p<buy_now){', 'storage': {'i': '3', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '5', 'best': '7'}}
+{'line': '22', 'src': 'if(p>sell_now){', 'storage': {'i': '3', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '5', 'best': '7'}}
+{'line': '26', 'src': 'if(better_sell==1){', 'storage': {'i': '3', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '5', 'best': '7'}}
+{'line': '27', 'src': 'best=sell_now-buy_now>best?sell_now-buy_now:best;', 'storage': {'i': '3', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '5', 'best': '7'}}
+{'line': '15', 'src': 'for(int i=0;i<n;i++){', 'storage': {'i': '3', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '5', 'best': '7'}}
+{'line': '16', 'src': 'cin >> p;', 'storage': {'i': '4', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '5', 'best': '7'}}
+{'line': '17', 'src': 'if(p<buy_now){', 'storage': {'i': '4', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '6', 'best': '7'}}
+{'line': '22', 'src': 'if(p>sell_now){', 'storage': {'i': '4', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '6', 'best': '7'}}
+{'line': '26', 'src': 'if(better_sell==1){', 'storage': {'i': '4', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '6', 'best': '7'}}
+{'line': '27', 'src': 'best=sell_now-buy_now>best?sell_now-buy_now:best;', 'storage': {'i': '4', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '6', 'best': '7'}}
+{'line': '15', 'src': 'for(int i=0;i<n;i++){', 'storage': {'i': '4', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '6', 'best': '7'}}
+{'line': '16', 'src': 'cin >> p;', 'storage': {'i': '5', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '6', 'best': '7'}}
+{'line': '17', 'src': 'if(p<buy_now){', 'storage': {'i': '5', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '3', 'best': '7'}}
+{'line': '22', 'src': 'if(p>sell_now){', 'storage': {'i': '5', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '3', 'best': '7'}}
+{'line': '26', 'src': 'if(better_sell==1){', 'storage': {'i': '5', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '3', 'best': '7'}}
+{'line': '27', 'src': 'best=sell_now-buy_now>best?sell_now-buy_now:best;', 'storage': {'i': '5', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '3', 'best': '7'}}
+{'line': '15', 'src': 'for(int i=0;i<n;i++){', 'storage': {'i': '5', 'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '3', 'best': '7'}}
+{'line': '31', 'src': 'cout << best;', 'storage': {'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '3', 'best': '7'}}
+{'line': '32', 'src': '}', 'storage': {'buy_now': '3', 'sell_now': '10', 'better_buy': '0', 'better_sell': '1', 'n': '6', 'p': '3', 'best': '7'}}

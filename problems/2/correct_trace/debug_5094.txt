@@ -1,0 +1,45 @@
+{'line': '21', 'src': 'int main() {', 'storage': {'ans': '32767'}}
+{'line': '22', 'src': 'n = read();', 'storage': {'ans': '32767'}}
+{'line': '11', 'src': 'int X = 0, w = 1; char c = getchar();', 'storage': {'X': '-135899912', 'w': '32767', 'c': "108 'l'"}}
+{'line': '12', 'src': "while (c < '0' || c > '9') { if (c == '-') w = -1; c = getchar(); }", 'storage': {'X': '0', 'w': '1', 'c': "54 '6'"}}
+{'line': '13', 'src': "while (c >= '0' && c <= '9') X = X * 10 + c - '0', c = getchar();", 'storage': {'X': '0', 'w': '1', 'c': "54 '6'"}}
+{'line': '14', 'src': 'return X * w;', 'storage': {'X': '6', 'w': '1', 'c': "10 '\\n'"}}
+{'line': '15', 'src': '}', 'storage': {'X': '6', 'w': '1', 'c': "10 '\\n'"}}
+{'line': '23', 'src': 'for (int i = 1; i <= n; ++i) a[i] = read();', 'storage': {'i': '779647075', 'ans': '32767'}}
+{'line': '11', 'src': 'int X = 0, w = 1; char c = getchar();', 'storage': {'X': '6', 'w': '1', 'c': "10 '\\n'"}}
+{'line': '12', 'src': "while (c < '0' || c > '9') { if (c == '-') w = -1; c = getchar(); }", 'storage': {'X': '0', 'w': '1', 'c': "51 '3'"}}
+{'line': '13', 'src': "while (c >= '0' && c <= '9') X = X * 10 + c - '0', c = getchar();", 'storage': {'X': '0', 'w': '1', 'c': "51 '3'"}}
+{'line': '14', 'src': 'return X * w;', 'storage': {'X': '3', 'w': '1', 'c': "32 ' '"}}
+{'line': '15', 'src': '}', 'storage': {'X': '3', 'w': '1', 'c': "32 ' '"}}
+{'line': '11', 'src': 'int X = 0, w = 1; char c = getchar();', 'storage': {'X': '3', 'w': '1', 'c': "32 ' '"}}
+{'line': '12', 'src': "while (c < '0' || c > '9') { if (c == '-') w = -1; c = getchar(); }", 'storage': {'X': '0', 'w': '1', 'c': "49 '1'"}}
+{'line': '13', 'src': "while (c >= '0' && c <= '9') X = X * 10 + c - '0', c = getchar();", 'storage': {'X': '0', 'w': '1', 'c': "49 '1'"}}
+{'line': '14', 'src': 'return X * w;', 'storage': {'X': '10', 'w': '1', 'c': "32 ' '"}}
+{'line': '15', 'src': '}', 'storage': {'X': '10', 'w': '1', 'c': "32 ' '"}}
+{'line': '11', 'src': 'int X = 0, w = 1; char c = getchar();', 'storage': {'X': '10', 'w': '1', 'c': "32 ' '"}}
+{'line': '12', 'src': "while (c < '0' || c > '9') { if (c == '-') w = -1; c = getchar(); }", 'storage': {'X': '0', 'w': '1', 'c': "52 '4'"}}
+{'line': '13', 'src': "while (c >= '0' && c <= '9') X = X * 10 + c - '0', c = getchar();", 'storage': {'X': '0', 'w': '1', 'c': "52 '4'"}}
+{'line': '14', 'src': 'return X * w;', 'storage': {'X': '4', 'w': '1', 'c': "32 ' '"}}
+{'line': '15', 'src': '}', 'storage': {'X': '4', 'w': '1', 'c': "32 ' '"}}
+{'line': '11', 'src': 'int X = 0, w = 1; char c = getchar();', 'storage': {'X': '4', 'w': '1', 'c': "32 ' '"}}
+{'line': '12', 'src': "while (c < '0' || c > '9') { if (c == '-') w = -1; c = getchar(); }", 'storage': {'X': '0', 'w': '1', 'c': "53 '5'"}}
+{'line': '13', 'src': "while (c >= '0' && c <= '9') X = X * 10 + c - '0', c = getchar();", 'storage': {'X': '0', 'w': '1', 'c': "53 '5'"}}
+{'line': '14', 'src': 'return X * w;', 'storage': {'X': '5', 'w': '1', 'c': "32 ' '"}}
+{'line': '15', 'src': '}', 'storage': {'X': '5', 'w': '1', 'c': "32 ' '"}}
+{'line': '11', 'src': 'int X = 0, w = 1; char c = getchar();', 'storage': {'X': '5', 'w': '1', 'c': "32 ' '"}}
+{'line': '12', 'src': "while (c < '0' || c > '9') { if (c == '-') w = -1; c = getchar(); }", 'storage': {'X': '0', 'w': '1', 'c': "54 '6'"}}
+{'line': '13', 'src': "while (c >= '0' && c <= '9') X = X * 10 + c - '0', c = getchar();", 'storage': {'X': '0', 'w': '1', 'c': "54 '6'"}}
+{'line': '14', 'src': 'return X * w;', 'storage': {'X': '6', 'w': '1', 'c': "32 ' '"}}
+{'line': '15', 'src': '}', 'storage': {'X': '6', 'w': '1', 'c': "32 ' '"}}
+{'line': '11', 'src': 'int X = 0, w = 1; char c = getchar();', 'storage': {'X': '6', 'w': '1', 'c': "32 ' '"}}
+{'line': '12', 'src': "while (c < '0' || c > '9') { if (c == '-') w = -1; c = getchar(); }", 'storage': {'X': '0', 'w': '1', 'c': "51 '3'"}}
+{'line': '13', 'src': "while (c >= '0' && c <= '9') X = X * 10 + c - '0', c = getchar();", 'storage': {'X': '0', 'w': '1', 'c': "51 '3'"}}
+{'line': '14', 'src': 'return X * w;', 'storage': {'X': '3', 'w': '1', 'c': "10 '\\n'"}}
+{'line': '15', 'src': '}', 'storage': {'X': '3', 'w': '1', 'c': "10 '\\n'"}}
+{'line': '24', 'src': 'pre[1] = a[1];', 'storage': {'ans': '32767'}}
+{'line': '25', 'src': 'for (int i = 2; i <= n; ++i) pre[i] = min(pre[i - 1], a[i]);', 'storage': {'i': '73728', 'ans': '32767'}}
+{'line': '26', 'src': 'int ans = 0;', 'storage': {'ans': '32767'}}
+{'line': '27', 'src': 'for (int i = 2; i <= n; ++i) ans = max(ans, a[i] - pre[i]);', 'storage': {'i': '0', 'ans': '0'}}
+{'line': '28', 'src': 'printf("%d\\n", ans);', 'storage': {'ans': '7'}}
+{'line': '29', 'src': 'return 0;', 'storage': {'ans': '7'}}
+{'line': '30', 'src': '}', 'storage': {'ans': '7'}}

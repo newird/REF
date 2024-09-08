@@ -1,0 +1,60 @@
+{'line': '5', 'src': '{', 'storage': {'n': '32767', 'p': '0x12000', 'max': '32767'}}
+{'line': '7', 'src': 'cin >> n;', 'storage': {'n': '32767', 'p': '0x12000', 'max': '32767'}}
+{'line': '8', 'src': 'int* p = new int[n];', 'storage': {'n': '6', 'p': '0x12000', 'max': '32767'}}
+{'line': '9', 'src': 'for (int i = 0; i != n; i++)', 'storage': {'i': '-135900000', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '10', 'src': 'cin >> p[i];', 'storage': {'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '9', 'src': 'for (int i = 0; i != n; i++)', 'storage': {'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '10', 'src': 'cin >> p[i];', 'storage': {'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '9', 'src': 'for (int i = 0; i != n; i++)', 'storage': {'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '10', 'src': 'cin >> p[i];', 'storage': {'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '9', 'src': 'for (int i = 0; i != n; i++)', 'storage': {'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '10', 'src': 'cin >> p[i];', 'storage': {'i': '3', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '9', 'src': 'for (int i = 0; i != n; i++)', 'storage': {'i': '3', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '10', 'src': 'cin >> p[i];', 'storage': {'i': '4', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '9', 'src': 'for (int i = 0; i != n; i++)', 'storage': {'i': '4', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '10', 'src': 'cin >> p[i];', 'storage': {'i': '5', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '9', 'src': 'for (int i = 0; i != n; i++)', 'storage': {'i': '5', 'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '11', 'src': 'int max = 0;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'max': '32767'}}
+{'line': '12', 'src': 'for (int i = 0; i != n - 1; i++)', 'storage': {'i': '1651076199', 'n': '6', 'p': '0x55555556c2c0', 'max': '0'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '779647075', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '0'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '1', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '0'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '1', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '2', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '2', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '3', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '3', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '4', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '4', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '5', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '5', 'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i != n - 1; i++)', 'storage': {'i': '0', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '6', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '2', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '2', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '3', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '3', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '4', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '4', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '5', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '5', 'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i != n - 1; i++)', 'storage': {'i': '1', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '6', 'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '3', 'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '3', 'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '4', 'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '4', 'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '5', 'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '5', 'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i != n - 1; i++)', 'storage': {'i': '2', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '6', 'i': '3', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '4', 'i': '3', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '4', 'i': '3', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '5', 'i': '3', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '5', 'i': '3', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i != n - 1; i++)', 'storage': {'i': '3', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '6', 'i': '4', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '14', 'src': 'max = (max > p[j] - p[i]) ? max : (p[j] - p[i]);', 'storage': {'j': '5', 'i': '4', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j != n; j++)', 'storage': {'j': '5', 'i': '4', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i != n - 1; i++)', 'storage': {'i': '4', 'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '15', 'src': 'cout << max;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}
+{'line': '16', 'src': '}', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'max': '7'}}

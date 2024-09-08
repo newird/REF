@@ -1,0 +1,42 @@
+{'line': '3', 'src': 'int main(){', 'storage': {'temp': '32767', 'day': '-135900000', 'max': '32767', 'min': '1651076199', 'result': '779647075', 'z': '73728'}}
+{'line': '6', 'src': 'cin>>day;', 'storage': {'temp': '32767', 'day': '-135900000', 'max': '32767', 'min': '1651076199', 'result': '779647075', 'z': '73728'}}
+{'line': '10', 'src': 'int z=1;', 'storage': {'temp': '32767', 'day': '6', 'max': '32767', 'min': '1651076199', 'result': '779647075', 'z': '73728'}}
+{'line': '11', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '0', 'temp': '32767', 'day': '6', 'max': '32767', 'min': '1651076199', 'result': '779647075', 'z': '1'}}
+{'line': '12', 'src': 'cin>>temp;', 'storage': {'i': '0', 'temp': '32767', 'day': '6', 'max': '32767', 'min': '1651076199', 'result': '779647075', 'z': '1'}}
+{'line': '13', 'src': 'if(i==0){', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'max': '32767', 'min': '1651076199', 'result': '779647075', 'z': '1'}}
+{'line': '14', 'src': 'max=temp;', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'max': '32767', 'min': '1651076199', 'result': '779647075', 'z': '1'}}
+{'line': '15', 'src': 'min=temp;', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'max': '3', 'min': '1651076199', 'result': '779647075', 'z': '1'}}
+{'line': '17', 'src': 'if(temp>max){', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'max': '3', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '20', 'src': 'if(min>temp){', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'max': '3', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '11', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'max': '3', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '12', 'src': 'cin>>temp;', 'storage': {'i': '1', 'temp': '3', 'day': '6', 'max': '3', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '13', 'src': 'if(i==0){', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'max': '3', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '17', 'src': 'if(temp>max){', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'max': '3', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '18', 'src': 'max=temp;', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'max': '3', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '20', 'src': 'if(min>temp){', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '11', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '12', 'src': 'cin>>temp;', 'storage': {'i': '2', 'temp': '10', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '13', 'src': 'if(i==0){', 'storage': {'i': '2', 'temp': '4', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '17', 'src': 'if(temp>max){', 'storage': {'i': '2', 'temp': '4', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '20', 'src': 'if(min>temp){', 'storage': {'i': '2', 'temp': '4', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '11', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '2', 'temp': '4', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '12', 'src': 'cin>>temp;', 'storage': {'i': '3', 'temp': '4', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '13', 'src': 'if(i==0){', 'storage': {'i': '3', 'temp': '5', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '17', 'src': 'if(temp>max){', 'storage': {'i': '3', 'temp': '5', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '20', 'src': 'if(min>temp){', 'storage': {'i': '3', 'temp': '5', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '11', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '3', 'temp': '5', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '12', 'src': 'cin>>temp;', 'storage': {'i': '4', 'temp': '5', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '13', 'src': 'if(i==0){', 'storage': {'i': '4', 'temp': '6', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '17', 'src': 'if(temp>max){', 'storage': {'i': '4', 'temp': '6', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '20', 'src': 'if(min>temp){', 'storage': {'i': '4', 'temp': '6', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '11', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '4', 'temp': '6', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '12', 'src': 'cin>>temp;', 'storage': {'i': '5', 'temp': '6', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '13', 'src': 'if(i==0){', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '17', 'src': 'if(temp>max){', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '20', 'src': 'if(min>temp){', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '11', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '25', 'src': 'result=max-min;', 'storage': {'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '779647075', 'z': '1'}}
+{'line': '26', 'src': 'if(z==day){result=0;}', 'storage': {'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'cout<<result;', 'storage': {'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '7', 'z': '1'}}
+{'line': '28', 'src': 'return 0;', 'storage': {'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '7', 'z': '1'}}
+{'line': '29', 'src': '}', 'storage': {'temp': '3', 'day': '6', 'max': '10', 'min': '3', 'result': '7', 'z': '1'}}

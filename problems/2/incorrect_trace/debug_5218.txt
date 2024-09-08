@@ -1,0 +1,90 @@
+{'line': '29', 'src': 'int main() {', 'storage': {'num': '0', 'head': '0x12000', 'wealth': '-139900694', 'top': '0x7ffff7e654a0', 'min': '32767'}}
+{'line': '30', 'src': 'int num = 0;', 'storage': {'num': '0', 'head': '0x12000', 'wealth': '-139900694', 'top': '0x7ffff7e654a0', 'min': '32767'}}
+{'line': '31', 'src': 'cin >> num;', 'storage': {'num': '0', 'head': '0x12000', 'wealth': '-139900694', 'top': '0x7ffff7e654a0', 'min': '32767'}}
+{'line': '32', 'src': 'Node* head = new Node;', 'storage': {'num': '6', 'head': '0x12000', 'wealth': '-139900694', 'top': '0x7ffff7e654a0', 'min': '32767'}}
+{'line': '33', 'src': 'read_in(num, head);', 'storage': {'num': '6', 'head': '0x55555556c2c0', 'wealth': '-139900694', 'top': '0x7ffff7e654a0', 'min': '32767'}}
+{'line': '15', 'src': 'Node* top = new Node;', 'storage': {'top': '0x0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '16', 'src': 'head->num = 0;', 'storage': {'top': '0x55555556c2e0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '17', 'src': 'cin >> head->value;', 'storage': {'top': '0x55555556c2e0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '18', 'src': 'top = head;', 'storage': {'top': '0x55555556c2e0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '19', 'src': 'for (int i = 1; i < num; i++) {', 'storage': {'i': '32767', 'top': '0x55555556c2c0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '20', 'src': 'Node* p = new Node;', 'storage': {'p': '0x7ffff7cab88d <operator new(unsigned long)+29>', 'i': '1', 'top': '0x55555556c2c0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '21', 'src': 'p->num = i;', 'storage': {'p': '0x55555556c300', 'i': '1', 'top': '0x55555556c2c0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '22', 'src': 'cin >> p->value;', 'storage': {'p': '0x55555556c300', 'i': '1', 'top': '0x55555556c2c0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '23', 'src': 'top->next = p;', 'storage': {'p': '0x55555556c300', 'i': '1', 'top': '0x55555556c2c0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '24', 'src': 'top = top->next;', 'storage': {'p': '0x55555556c300', 'i': '1', 'top': '0x55555556c2c0', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '19', 'src': 'for (int i = 1; i < num; i++) {', 'storage': {'i': '1', 'top': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '20', 'src': 'Node* p = new Node;', 'storage': {'p': '0x55555556c300', 'i': '2', 'top': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '21', 'src': 'p->num = i;', 'storage': {'p': '0x55555556c320', 'i': '2', 'top': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '22', 'src': 'cin >> p->value;', 'storage': {'p': '0x55555556c320', 'i': '2', 'top': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '23', 'src': 'top->next = p;', 'storage': {'p': '0x55555556c320', 'i': '2', 'top': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '24', 'src': 'top = top->next;', 'storage': {'p': '0x55555556c320', 'i': '2', 'top': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '19', 'src': 'for (int i = 1; i < num; i++) {', 'storage': {'i': '2', 'top': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '20', 'src': 'Node* p = new Node;', 'storage': {'p': '0x55555556c320', 'i': '3', 'top': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '21', 'src': 'p->num = i;', 'storage': {'p': '0x55555556c340', 'i': '3', 'top': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '22', 'src': 'cin >> p->value;', 'storage': {'p': '0x55555556c340', 'i': '3', 'top': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '23', 'src': 'top->next = p;', 'storage': {'p': '0x55555556c340', 'i': '3', 'top': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '24', 'src': 'top = top->next;', 'storage': {'p': '0x55555556c340', 'i': '3', 'top': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '19', 'src': 'for (int i = 1; i < num; i++) {', 'storage': {'i': '3', 'top': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '20', 'src': 'Node* p = new Node;', 'storage': {'p': '0x55555556c340', 'i': '4', 'top': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '21', 'src': 'p->num = i;', 'storage': {'p': '0x55555556c360', 'i': '4', 'top': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '22', 'src': 'cin >> p->value;', 'storage': {'p': '0x55555556c360', 'i': '4', 'top': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '23', 'src': 'top->next = p;', 'storage': {'p': '0x55555556c360', 'i': '4', 'top': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '24', 'src': 'top = top->next;', 'storage': {'p': '0x55555556c360', 'i': '4', 'top': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '19', 'src': 'for (int i = 1; i < num; i++) {', 'storage': {'i': '4', 'top': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '20', 'src': 'Node* p = new Node;', 'storage': {'p': '0x55555556c360', 'i': '5', 'top': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '21', 'src': 'p->num = i;', 'storage': {'p': '0x55555556c380', 'i': '5', 'top': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '22', 'src': 'cin >> p->value;', 'storage': {'p': '0x55555556c380', 'i': '5', 'top': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '23', 'src': 'top->next = p;', 'storage': {'p': '0x55555556c380', 'i': '5', 'top': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '24', 'src': 'top = top->next;', 'storage': {'p': '0x55555556c380', 'i': '5', 'top': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '19', 'src': 'for (int i = 1; i < num; i++) {', 'storage': {'i': '5', 'top': '0x55555556c380', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '26', 'src': 'top->next = nullptr;', 'storage': {'top': '0x55555556c380', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '27', 'src': '}', 'storage': {'top': '0x55555556c380', 'num': '6', 'head': '0x55555556c2c0'}}
+{'line': '34', 'src': 'int wealth = 0;;', 'storage': {'num': '6', 'head': '0x55555556c2c0', 'wealth': '-139900694', 'top': '0x7ffff7e654a0', 'min': '32767'}}
+{'line': '35', 'src': 'Node* top = head;', 'storage': {'num': '6', 'head': '0x55555556c2c0', 'wealth': '0', 'top': '0x7ffff7e654a0', 'min': '32767'}}
+{'line': '36', 'src': 'int min = 0;', 'storage': {'num': '6', 'head': '0x55555556c2c0', 'wealth': '0', 'top': '0x55555556c2c0', 'min': '32767'}}
+{'line': '37', 'src': 'min = top->value;', 'storage': {'num': '6', 'head': '0x55555556c2c0', 'wealth': '0', 'top': '0x55555556c2c0', 'min': '0'}}
+{'line': '38', 'src': 'while (top != nullptr) {', 'storage': {'num': '6', 'head': '0x55555556c2c0', 'wealth': '0', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '39', 'src': 'Node* p = top->next;', 'storage': {'p': '0x2e78786362696c67', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '0', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '40', 'src': 'while (p != nullptr) {', 'storage': {'p': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '0', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '41', 'src': 'if (p->value > top->value) {', 'storage': {'p': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '0', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '42', 'src': 'wealth = max(wealth, p->value - top->value);', 'storage': {'p': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '0', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '10', 'src': 'if (a >= b) return a;', 'storage': {'a': '0', 'b': '7'}}
+{'line': '11', 'src': 'else return b;', 'storage': {'a': '0', 'b': '7'}}
+{'line': '12', 'src': '}', 'storage': {'a': '0', 'b': '7'}}
+{'line': '43', 'src': 'p = p->next;', 'storage': {'p': '0x55555556c300', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '40', 'src': 'while (p != nullptr) {', 'storage': {'p': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '41', 'src': 'if (p->value > top->value) {', 'storage': {'p': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '42', 'src': 'wealth = max(wealth, p->value - top->value);', 'storage': {'p': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '10', 'src': 'if (a >= b) return a;', 'storage': {'a': '7', 'b': '1'}}
+{'line': '12', 'src': '}', 'storage': {'a': '7', 'b': '1'}}
+{'line': '43', 'src': 'p = p->next;', 'storage': {'p': '0x55555556c320', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '40', 'src': 'while (p != nullptr) {', 'storage': {'p': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '41', 'src': 'if (p->value > top->value) {', 'storage': {'p': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '42', 'src': 'wealth = max(wealth, p->value - top->value);', 'storage': {'p': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '10', 'src': 'if (a >= b) return a;', 'storage': {'a': '7', 'b': '2'}}
+{'line': '12', 'src': '}', 'storage': {'a': '7', 'b': '2'}}
+{'line': '43', 'src': 'p = p->next;', 'storage': {'p': '0x55555556c340', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '40', 'src': 'while (p != nullptr) {', 'storage': {'p': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '41', 'src': 'if (p->value > top->value) {', 'storage': {'p': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '42', 'src': 'wealth = max(wealth, p->value - top->value);', 'storage': {'p': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '10', 'src': 'if (a >= b) return a;', 'storage': {'a': '7', 'b': '3'}}
+{'line': '12', 'src': '}', 'storage': {'a': '7', 'b': '3'}}
+{'line': '43', 'src': 'p = p->next;', 'storage': {'p': '0x55555556c360', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '40', 'src': 'while (p != nullptr) {', 'storage': {'p': '0x55555556c380', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '41', 'src': 'if (p->value > top->value) {', 'storage': {'p': '0x55555556c380', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '45', 'src': 'else p = p->next;', 'storage': {'p': '0x55555556c380', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '40', 'src': 'while (p != nullptr) {', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '47', 'src': 'top = top->next;', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c2c0', 'min': '3'}}
+{'line': '48', 'src': 'while (top->value >= min) {', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c300', 'min': '3'}}
+{'line': '49', 'src': 'top = top->next;', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c300', 'min': '3'}}
+{'line': '48', 'src': 'while (top->value >= min) {', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c320', 'min': '3'}}
+{'line': '49', 'src': 'top = top->next;', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c320', 'min': '3'}}
+{'line': '48', 'src': 'while (top->value >= min) {', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c340', 'min': '3'}}
+{'line': '49', 'src': 'top = top->next;', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c340', 'min': '3'}}
+{'line': '48', 'src': 'while (top->value >= min) {', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c360', 'min': '3'}}
+{'line': '49', 'src': 'top = top->next;', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c360', 'min': '3'}}
+{'line': '48', 'src': 'while (top->value >= min) {', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c380', 'min': '3'}}
+{'line': '49', 'src': 'top = top->next;', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x55555556c380', 'min': '3'}}
+{'line': '48', 'src': 'while (top->value >= min) {', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x0', 'min': '3'}}
+{'line': '48', 'src': 'while (top->value >= min) {', 'storage': {'p': '0x0', 'num': '6', 'head': '0x55555556c2c0', 'wealth': '7', 'top': '0x0', 'min': '3'}}

@@ -1,0 +1,11 @@
+{'line': '6', 'src': '{', 'storage': {'n': '32767', 'ans': '-135900000'}}
+{'line': '8', 'src': 'scanf("%d",&n);', 'storage': {'n': '32767', 'ans': '-135900000'}}
+{'line': '9', 'src': 'for (int i=1;i<=n;i++) scanf("%d",&p[i]);', 'storage': {'i': '1651076199', 'n': '6', 'ans': '-135900000'}}
+{'line': '10', 'src': 'a[0]=10005;', 'storage': {'n': '6', 'ans': '-135900000'}}
+{'line': '11', 'src': 'for (int i=1;i<=n;i++) a[i]=min(a[i-1],p[i]);', 'storage': {'i': '779647075', 'n': '6', 'ans': '-135900000'}}
+{'line': '12', 'src': 'for (int i=n;i;i--) b[i]=max(b[i+1],p[i]);', 'storage': {'i': '73728', 'n': '6', 'ans': '-135900000'}}
+{'line': '13', 'src': 'int ans=0;', 'storage': {'n': '6', 'ans': '-135900000'}}
+{'line': '14', 'src': 'for (int i=1;i<=n;i++) ans=max(ans,b[i+1]-a[i+1]);', 'storage': {'i': '0', 'n': '6', 'ans': '0'}}
+{'line': '15', 'src': 'printf("%d",ans);', 'storage': {'n': '6', 'ans': '7'}}
+{'line': '16', 'src': 'return 0;', 'storage': {'n': '6', 'ans': '7'}}
+{'line': '17', 'src': '}', 'storage': {'n': '6', 'ans': '7'}}

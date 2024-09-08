@@ -1,0 +1,185 @@
+{'line': '21', 'src': 'int main() {', 'storage': {'t': '-1'}}
+{'line': '23', 'src': 'cin >> t;', 'storage': {'t': '-1'}}
+{'line': '25', 'src': 'while (t--) {', 'storage': {'t': '6'}}
+{'line': '27', 'src': 'cin >> n;', 'storage': {'n': '1600677166', 'ex': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable ex (Cannot access memory at address 0x0)>', 't': '5'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '3', 'ex': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable ex (Cannot access memory at address 0x0)>', 't': '5'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '3', 'ex': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable ex (Cannot access memory at address 0x0)>', 't': '5'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {0, 0, 0}', 't': '5'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1819242352', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {0, 0, 0}', 't': '5'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '0', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {0, 0, 0}', 't': '5'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '0', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 0, 0}', 't': '5'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '0', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 0, 0}', 't': '5'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '1', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 0, 0}', 't': '5'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '1', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 4, 0}', 't': '5'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 4, 0}', 't': '5'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '2', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 4, 0}', 't': '5'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '2', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 4, 5}', 't': '5'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '2', 'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 4, 5}', 't': '5'}}
+{'line': '35', 'src': 'cout << maxProfit(ex) << endl;', 'storage': {'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 4, 5}', 't': '5'}}
+{'line': '8', 'src': 'int valley = INT_MAX;', 'storage': {'valley': '0', 'ans': '-45029120', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '9', 'src': 'int ans = 0;', 'storage': {'valley': '2147483647', 'ans': '-45029120', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '-1703600869', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '0', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '12', 'src': 'valley = prices[i];', 'storage': {'i': '0', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '0', 'valley': '10', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '1', 'valley': '10', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '12', 'src': 'valley = prices[i];', 'storage': {'i': '1', 'valley': '10', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '1', 'valley': '4', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '2', 'valley': '4', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '2', 'valley': '4', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '15', 'src': 'ans = prices[i] - valley;', 'storage': {'i': '2', 'valley': '4', 'ans': '0', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '2', 'valley': '4', 'ans': '1', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '18', 'src': 'return ans;', 'storage': {'valley': '4', 'ans': '1', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '19', 'src': '}', 'storage': {'valley': '4', 'ans': '1', 'prices': 'std::vector of length 3, capacity 3 = {10, 4, 5}'}}
+{'line': '36', 'src': '}', 'storage': {'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {10, 4, 5}', 't': '5'}}
+{'line': '25', 'src': 'while (t--) {', 'storage': {'t': '5'}}
+{'line': '27', 'src': 'cin >> n;', 'storage': {'n': '3', 'ex': 'std::vector of length 3, capacity 3 = {1431655788, 5, -1566536151}', 't': '4'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 3, capacity 3 = {1431655788, 5, -1566536151}', 't': '4'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 3, capacity 3 = {1431655788, 5, -1566536151}', 't': '4'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '35', 'src': 'cout << maxProfit(ex) << endl;', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '8', 'src': 'int valley = INT_MAX;', 'storage': {'valley': '0', 'ans': '-45029120', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '9', 'src': 'int ans = 0;', 'storage': {'valley': '2147483647', 'ans': '-45029120', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '-1703600869', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '0', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '12', 'src': 'valley = prices[i];', 'storage': {'i': '0', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '0', 'valley': '3', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '1', 'valley': '3', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '12', 'src': 'valley = prices[i];', 'storage': {'i': '1', 'valley': '3', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '1', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '18', 'src': 'return ans;', 'storage': {'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '19', 'src': '}', 'storage': {'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}'}}
+{'line': '36', 'src': '}', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 't': '4'}}
+{'line': '25', 'src': 'while (t--) {', 'storage': {'t': '4'}}
+{'line': '27', 'src': 'cin >> n;', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '3'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '3'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '3'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '6', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '35', 'src': 'cout << maxProfit(ex) << endl;', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '8', 'src': 'int valley = INT_MAX;', 'storage': {'valley': '0', 'ans': '-45029120', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '9', 'src': 'int ans = 0;', 'storage': {'valley': '2147483647', 'ans': '-45029120', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '-1703600869', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '0', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '12', 'src': 'valley = prices[i];', 'storage': {'i': '0', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '0', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '1', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '1', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '1', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '18', 'src': 'return ans;', 'storage': {'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '19', 'src': '}', 'storage': {'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '36', 'src': '}', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '3'}}
+{'line': '25', 'src': 'while (t--) {', 'storage': {'t': '3'}}
+{'line': '27', 'src': 'cin >> n;', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '2'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '2'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '2'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '6', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '0', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '2', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '3', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '4', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '30', 'src': 'cin >> ex[i];', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '31', 'src': 'if (ex[i] < 0 || ex[i] > 10000) {', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '29', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '5', 'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '35', 'src': 'cout << maxProfit(ex) << endl;', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '8', 'src': 'int valley = INT_MAX;', 'storage': {'valley': '0', 'ans': '-45029120', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '9', 'src': 'int ans = 0;', 'storage': {'valley': '2147483647', 'ans': '-45029120', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '-1703600869', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '0', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '12', 'src': 'valley = prices[i];', 'storage': {'i': '0', 'valley': '2147483647', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '0', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '1', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '1', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '1', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '2', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '3', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '4', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '11', 'src': 'if (prices[i] < valley) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '14', 'src': 'else if (prices[i] - valley > ans) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '10', 'src': 'for (int i = 0; i < prices.size(); i++) {', 'storage': {'i': '5', 'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '18', 'src': 'return ans;', 'storage': {'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '19', 'src': '}', 'storage': {'valley': '0', 'ans': '0', 'prices': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}'}}
+{'line': '36', 'src': '}', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 't': '2'}}
+{'line': '25', 'src': 'while (t--) {', 'storage': {'t': '2'}}
+{'line': '27', 'src': 'cin >> n;', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '1'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '1'}}
+{'line': '28', 'src': 'vector<int> ex(n);', 'storage': {'n': '6', 'ex': 'std::vector of length 6, capacity 6 = {1431655788, 5, -1566536151, 335961925, 0, 0}', 't': '1'}}

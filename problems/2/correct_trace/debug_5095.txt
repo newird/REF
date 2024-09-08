@@ -1,0 +1,26 @@
+{'line': '4', 'src': 'int main(){', 'storage': {'minn': '32767', 'ans': '1651076199'}}
+{'line': '5', 'src': 'cin>>n;', 'storage': {'minn': '32767', 'ans': '1651076199'}}
+{'line': '6', 'src': 'for(int i=1;i<=n;i++) cin>>a[i];', 'storage': {'i': '73728', 'minn': '32767', 'ans': '1651076199'}}
+{'line': '7', 'src': 'int minn=0xffffff,ans=0;', 'storage': {'minn': '32767', 'ans': '1651076199'}}
+{'line': '8', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '0', 'minn': '16777215', 'ans': '0'}}
+{'line': '9', 'src': 'ans=max(ans,a[i]-minn);', 'storage': {'i': '1', 'minn': '16777215', 'ans': '0'}}
+{'line': '10', 'src': 'minn=min(minn,a[i]);', 'storage': {'i': '1', 'minn': '16777215', 'ans': '0'}}
+{'line': '8', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '1', 'minn': '3', 'ans': '0'}}
+{'line': '9', 'src': 'ans=max(ans,a[i]-minn);', 'storage': {'i': '2', 'minn': '3', 'ans': '0'}}
+{'line': '10', 'src': 'minn=min(minn,a[i]);', 'storage': {'i': '2', 'minn': '3', 'ans': '7'}}
+{'line': '8', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '2', 'minn': '3', 'ans': '7'}}
+{'line': '9', 'src': 'ans=max(ans,a[i]-minn);', 'storage': {'i': '3', 'minn': '3', 'ans': '7'}}
+{'line': '10', 'src': 'minn=min(minn,a[i]);', 'storage': {'i': '3', 'minn': '3', 'ans': '7'}}
+{'line': '8', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '3', 'minn': '3', 'ans': '7'}}
+{'line': '9', 'src': 'ans=max(ans,a[i]-minn);', 'storage': {'i': '4', 'minn': '3', 'ans': '7'}}
+{'line': '10', 'src': 'minn=min(minn,a[i]);', 'storage': {'i': '4', 'minn': '3', 'ans': '7'}}
+{'line': '8', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '4', 'minn': '3', 'ans': '7'}}
+{'line': '9', 'src': 'ans=max(ans,a[i]-minn);', 'storage': {'i': '5', 'minn': '3', 'ans': '7'}}
+{'line': '10', 'src': 'minn=min(minn,a[i]);', 'storage': {'i': '5', 'minn': '3', 'ans': '7'}}
+{'line': '8', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '5', 'minn': '3', 'ans': '7'}}
+{'line': '9', 'src': 'ans=max(ans,a[i]-minn);', 'storage': {'i': '6', 'minn': '3', 'ans': '7'}}
+{'line': '10', 'src': 'minn=min(minn,a[i]);', 'storage': {'i': '6', 'minn': '3', 'ans': '7'}}
+{'line': '8', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '6', 'minn': '3', 'ans': '7'}}
+{'line': '12', 'src': 'cout<<ans<<endl;', 'storage': {'minn': '3', 'ans': '7'}}
+{'line': '13', 'src': 'return 0;', 'storage': {'minn': '3', 'ans': '7'}}
+{'line': '14', 'src': '}', 'storage': {'minn': '3', 'ans': '7'}}

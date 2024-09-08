@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+	long long num1 = 0,sum = 0;
+	scanf("%d", &num1);
+	if (num1 < 1||num1>=20000000)
+	{
+                sum=-1;
+		return 0;
+	}
+	else
+	{
+		while (num1>=1)
+		{
+			sum = num1+sum;
+			num1--;
+		}
+	}
+	printf("%lld", sum);
+	return 0;
+}

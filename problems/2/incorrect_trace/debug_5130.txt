@@ -1,0 +1,65 @@
+{'line': '4', 'src': 'int main() {', 'storage': {'n': '32767', 'price': '0x12000', 'money': '32767'}}
+{'line': '6', 'src': 'cin >> n;', 'storage': {'n': '32767', 'price': '0x12000', 'money': '32767'}}
+{'line': '7', 'src': 'int* price = new int[n];', 'storage': {'n': '6', 'price': '0x12000', 'money': '32767'}}
+{'line': '8', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '-135900000', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '9', 'src': 'cin >> price[i];', 'storage': {'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '8', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '9', 'src': 'cin >> price[i];', 'storage': {'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '8', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '9', 'src': 'cin >> price[i];', 'storage': {'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '8', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '9', 'src': 'cin >> price[i];', 'storage': {'i': '3', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '8', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '3', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '9', 'src': 'cin >> price[i];', 'storage': {'i': '4', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '8', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '4', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '9', 'src': 'cin >> price[i];', 'storage': {'i': '5', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '8', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '5', 'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '11', 'src': 'int money = -1;', 'storage': {'n': '6', 'price': '0x55555556c2c0', 'money': '32767'}}
+{'line': '12', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '1651076199', 'n': '6', 'price': '0x55555556c2c0', 'money': '-1'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '779647075', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '-1'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '1', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '-1'}}
+{'line': '15', 'src': 'money = price[j] - price[i];', 'storage': {'j': '1', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '-1'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '1', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '2', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '2', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '3', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '3', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '4', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '4', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '5', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '5', 'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '0', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '6', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '2', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '2', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '3', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '3', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '4', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '4', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '5', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '5', 'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '1', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '6', 'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '3', 'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '3', 'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '4', 'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '4', 'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '5', 'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '5', 'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '2', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '6', 'i': '3', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '4', 'i': '3', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '4', 'i': '3', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '5', 'i': '3', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '5', 'i': '3', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '3', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '6', 'i': '4', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '14', 'src': 'if (money < price[j] - price[i])', 'storage': {'j': '5', 'i': '4', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '5', 'i': '4', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '4', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '13', 'src': 'for (int j = i + 1; j < n; ++j) {', 'storage': {'j': '6', 'i': '5', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '12', 'src': 'for (int i = 0; i < n; ++i) {', 'storage': {'i': '5', 'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '18', 'src': 'if (money < 0)', 'storage': {'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '21', 'src': 'cout << money;', 'storage': {'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '22', 'src': 'return 0;', 'storage': {'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}
+{'line': '23', 'src': '}', 'storage': {'n': '6', 'price': '0x55555556c2c0', 'money': '7'}}

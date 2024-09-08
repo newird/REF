@@ -1,0 +1,114 @@
+{'line': '6', 'src': '{', 'storage': {'n': '32767', 'p': '0x12000', 'i': '-135900000', 'money': '779647075', 'res': '32767'}}
+{'line': '8', 'src': 'cin >> n;', 'storage': {'n': '32767', 'p': '0x12000', 'i': '-135900000', 'money': '779647075', 'res': '32767'}}
+{'line': '9', 'src': 'int* p = new int[n];', 'storage': {'n': '6', 'p': '0x12000', 'i': '-135900000', 'money': '779647075', 'res': '32767'}}
+{'line': '10', 'src': 'int i = 0;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '-135900000', 'money': '779647075', 'res': '32767'}}
+{'line': '11', 'src': 'while (i < n)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '779647075', 'res': '32767'}}
+{'line': '13', 'src': 'cin >> p[i];', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '779647075', 'res': '32767'}}
+{'line': '14', 'src': 'i++;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '779647075', 'res': '32767'}}
+{'line': '11', 'src': 'while (i < n)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '779647075', 'res': '32767'}}
+{'line': '13', 'src': 'cin >> p[i];', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '779647075', 'res': '32767'}}
+{'line': '14', 'src': 'i++;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '779647075', 'res': '32767'}}
+{'line': '11', 'src': 'while (i < n)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '779647075', 'res': '32767'}}
+{'line': '13', 'src': 'cin >> p[i];', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '779647075', 'res': '32767'}}
+{'line': '14', 'src': 'i++;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '779647075', 'res': '32767'}}
+{'line': '11', 'src': 'while (i < n)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '779647075', 'res': '32767'}}
+{'line': '13', 'src': 'cin >> p[i];', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '779647075', 'res': '32767'}}
+{'line': '14', 'src': 'i++;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '779647075', 'res': '32767'}}
+{'line': '11', 'src': 'while (i < n)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '779647075', 'res': '32767'}}
+{'line': '13', 'src': 'cin >> p[i];', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '779647075', 'res': '32767'}}
+{'line': '14', 'src': 'i++;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '779647075', 'res': '32767'}}
+{'line': '11', 'src': 'while (i < n)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '5', 'money': '779647075', 'res': '32767'}}
+{'line': '13', 'src': 'cin >> p[i];', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '5', 'money': '779647075', 'res': '32767'}}
+{'line': '14', 'src': 'i++;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '5', 'money': '779647075', 'res': '32767'}}
+{'line': '11', 'src': 'while (i < n)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '6', 'money': '779647075', 'res': '32767'}}
+{'line': '16', 'src': 'int money = 0;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '6', 'money': '779647075', 'res': '32767'}}
+{'line': '17', 'src': 'int res = 0;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '6', 'money': '0', 'res': '32767'}}
+{'line': '18', 'src': 'i = 0;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '6', 'money': '0', 'res': '0'}}
+{'line': '19', 'src': 'while (i < n - 1)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '21', 'src': 'int j = i + 1;', 'storage': {'j': '1651076199', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '1', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '1', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '1', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-7', 'res': '0'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '1', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-7', 'res': '0'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-7', 'res': '0'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-7', 'res': '0'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-1', 'res': '0'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-1', 'res': '0'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-1', 'res': '0'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-1', 'res': '0'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-2', 'res': '0'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-2', 'res': '0'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-2', 'res': '0'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-2', 'res': '0'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-3', 'res': '0'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-3', 'res': '0'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-3', 'res': '0'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '-3', 'res': '0'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '26', 'src': 'res = money;', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '29', 'src': 'i++;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '0', 'money': '0', 'res': '0'}}
+{'line': '19', 'src': 'while (i < n - 1)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '0', 'res': '0'}}
+{'line': '21', 'src': 'int j = i + 1;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '0', 'res': '0'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '0', 'res': '0'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '0', 'res': '0'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '6', 'res': '0'}}
+{'line': '26', 'src': 'res = money;', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '6', 'res': '0'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '2', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '6', 'res': '6'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '6', 'res': '6'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '6', 'res': '6'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '5', 'res': '6'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '5', 'res': '6'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '5', 'res': '6'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '5', 'res': '6'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '4', 'res': '6'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '4', 'res': '6'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '4', 'res': '6'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '4', 'res': '6'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '7', 'res': '6'}}
+{'line': '26', 'src': 'res = money;', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '7', 'res': '6'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '7', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '7', 'res': '7'}}
+{'line': '29', 'src': 'i++;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '1', 'money': '7', 'res': '7'}}
+{'line': '19', 'src': 'while (i < n - 1)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '7', 'res': '7'}}
+{'line': '21', 'src': 'int j = i + 1;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '7', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '7', 'res': '7'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '7', 'res': '7'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '-1', 'res': '7'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '3', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '-1', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '-1', 'res': '7'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '-1', 'res': '7'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '-2', 'res': '7'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '-2', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '-2', 'res': '7'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '-2', 'res': '7'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '1', 'res': '7'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '1', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '1', 'res': '7'}}
+{'line': '29', 'src': 'i++;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '2', 'money': '1', 'res': '7'}}
+{'line': '19', 'src': 'while (i < n - 1)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '1', 'res': '7'}}
+{'line': '21', 'src': 'int j = i + 1;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '1', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '1', 'res': '7'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '1', 'res': '7'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '-1', 'res': '7'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '4', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '-1', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '-1', 'res': '7'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '-1', 'res': '7'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '2', 'res': '7'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '2', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '2', 'res': '7'}}
+{'line': '29', 'src': 'i++;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '3', 'money': '2', 'res': '7'}}
+{'line': '19', 'src': 'while (i < n - 1)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '2', 'res': '7'}}
+{'line': '21', 'src': 'int j = i + 1;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '2', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '2', 'res': '7'}}
+{'line': '24', 'src': 'money = p[i] - p[j];', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '2', 'res': '7'}}
+{'line': '25', 'src': 'if (money >= res)', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '3', 'res': '7'}}
+{'line': '27', 'src': 'j++;', 'storage': {'j': '5', 'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '3', 'res': '7'}}
+{'line': '22', 'src': 'while (j < n)', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '3', 'res': '7'}}
+{'line': '29', 'src': 'i++;', 'storage': {'j': '6', 'n': '6', 'p': '0x55555556c2c0', 'i': '4', 'money': '3', 'res': '7'}}
+{'line': '19', 'src': 'while (i < n - 1)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '5', 'money': '3', 'res': '7'}}
+{'line': '31', 'src': 'if (res <= 0)', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '5', 'money': '3', 'res': '7'}}
+{'line': '34', 'src': 'cout << res;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '5', 'money': '3', 'res': '7'}}
+{'line': '36', 'src': 'return 0;', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '5', 'money': '3', 'res': '7'}}
+{'line': '37', 'src': '}', 'storage': {'n': '6', 'p': '0x55555556c2c0', 'i': '5', 'money': '3', 'res': '7'}}

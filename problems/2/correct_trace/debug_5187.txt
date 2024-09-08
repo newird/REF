@@ -1,0 +1,28 @@
+{'line': '4', 'src': 'int main() {', 'storage': {'n': '32767', 'max': '779647075', 'min': '-135900000', 'r': '32767', 'a': '0x12000'}}
+{'line': '5', 'src': 'int n = 0; int max = 0; int min = 0; int r = 0;', 'storage': {'n': '32767', 'max': '779647075', 'min': '-135900000', 'r': '32767', 'a': '0x12000'}}
+{'line': '6', 'src': 'cin >> n;', 'storage': {'n': '0', 'max': '0', 'min': '0', 'r': '0', 'a': '0x12000'}}
+{'line': '7', 'src': 'int* a = (int*)malloc(sizeof(int) * n);', 'storage': {'n': '6', 'max': '0', 'min': '0', 'r': '0', 'a': '0x12000'}}
+{'line': '8', 'src': 'cin >> a[0];', 'storage': {'n': '6', 'max': '0', 'min': '0', 'r': '0', 'a': '0x55555556c2c0'}}
+{'line': '9', 'src': 'for (int i = 1; i < n; i++) {', 'storage': {'i': '1651076199', 'n': '6', 'max': '0', 'min': '0', 'r': '0', 'a': '0x55555556c2c0'}}
+{'line': '10', 'src': 'cin >> a[i];', 'storage': {'i': '1', 'n': '6', 'max': '0', 'min': '0', 'r': '0', 'a': '0x55555556c2c0'}}
+{'line': '11', 'src': 'if (a[i] > a[i - 1]) {', 'storage': {'i': '1', 'n': '6', 'max': '0', 'min': '0', 'r': '0', 'a': '0x55555556c2c0'}}
+{'line': '12', 'src': 'max = i; r = (r < a[max] - a[min]) ? a[max] - a[min] : r;', 'storage': {'i': '1', 'n': '6', 'max': '0', 'min': '0', 'r': '0', 'a': '0x55555556c2c0'}}
+{'line': '9', 'src': 'for (int i = 1; i < n; i++) {', 'storage': {'i': '1', 'n': '6', 'max': '1', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '10', 'src': 'cin >> a[i];', 'storage': {'i': '2', 'n': '6', 'max': '1', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '11', 'src': 'if (a[i] > a[i - 1]) {', 'storage': {'i': '2', 'n': '6', 'max': '1', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '14', 'src': 'else { min = (a[i] < a[min]) ? i : min; }', 'storage': {'i': '2', 'n': '6', 'max': '1', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '9', 'src': 'for (int i = 1; i < n; i++) {', 'storage': {'i': '2', 'n': '6', 'max': '1', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '10', 'src': 'cin >> a[i];', 'storage': {'i': '3', 'n': '6', 'max': '1', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '11', 'src': 'if (a[i] > a[i - 1]) {', 'storage': {'i': '3', 'n': '6', 'max': '1', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '12', 'src': 'max = i; r = (r < a[max] - a[min]) ? a[max] - a[min] : r;', 'storage': {'i': '3', 'n': '6', 'max': '1', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '9', 'src': 'for (int i = 1; i < n; i++) {', 'storage': {'i': '3', 'n': '6', 'max': '3', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '10', 'src': 'cin >> a[i];', 'storage': {'i': '4', 'n': '6', 'max': '3', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '11', 'src': 'if (a[i] > a[i - 1]) {', 'storage': {'i': '4', 'n': '6', 'max': '3', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '12', 'src': 'max = i; r = (r < a[max] - a[min]) ? a[max] - a[min] : r;', 'storage': {'i': '4', 'n': '6', 'max': '3', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '9', 'src': 'for (int i = 1; i < n; i++) {', 'storage': {'i': '4', 'n': '6', 'max': '4', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '10', 'src': 'cin >> a[i];', 'storage': {'i': '5', 'n': '6', 'max': '4', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '11', 'src': 'if (a[i] > a[i - 1]) {', 'storage': {'i': '5', 'n': '6', 'max': '4', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '14', 'src': 'else { min = (a[i] < a[min]) ? i : min; }', 'storage': {'i': '5', 'n': '6', 'max': '4', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '9', 'src': 'for (int i = 1; i < n; i++) {', 'storage': {'i': '5', 'n': '6', 'max': '4', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '16', 'src': 'cout << r;', 'storage': {'n': '6', 'max': '4', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}
+{'line': '17', 'src': '}', 'storage': {'n': '6', 'max': '4', 'min': '0', 'r': '7', 'a': '0x55555556c2c0'}}

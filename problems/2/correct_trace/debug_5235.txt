@@ -1,0 +1,42 @@
+{'line': '31', 'src': 'int main() {', 'storage': {'n': '32767', 'a': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'res': '32767'}}
+{'line': '33', 'src': 'cin >> n;', 'storage': {'n': '32767', 'a': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'res': '32767'}}
+{'line': '34', 'src': 'if (n == 0) {', 'storage': {'n': '6', 'a': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'res': '32767'}}
+{'line': '38', 'src': 'stack<int> a;//a的栈顶最低，', 'storage': {'n': '6', 'a': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'res': '32767'}}
+{'line': '39', 'src': 'int res = 0;', 'storage': {'n': '6', 'a': 'std::stack wrapping: std::deque with 0 elements', 'res': '32767'}}
+{'line': '40', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1431675552', 'n': '6', 'a': 'std::stack wrapping: std::deque with 0 elements', 'res': '0'}}
+{'line': '42', 'src': 'cin >> temp;', 'storage': {'temp': '-135840352', 'i': '0', 'n': '6', 'a': 'std::stack wrapping: std::deque with 0 elements', 'res': '0'}}
+{'line': '43', 'src': 'if (i == 0) {', 'storage': {'temp': '3', 'i': '0', 'n': '6', 'a': 'std::stack wrapping: std::deque with 0 elements', 'res': '0'}}
+{'line': '44', 'src': 'a.push(temp);', 'storage': {'temp': '3', 'i': '0', 'n': '6', 'a': 'std::stack wrapping: std::deque with 0 elements', 'res': '0'}}
+{'line': '40', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '0', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '0'}}
+{'line': '42', 'src': 'cin >> temp;', 'storage': {'temp': '3', 'i': '1', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '0'}}
+{'line': '43', 'src': 'if (i == 0) {', 'storage': {'temp': '10', 'i': '1', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '0'}}
+{'line': '47', 'src': 'int restmp = temp - a.top();', 'storage': {'restmp': '21845', 'temp': '10', 'i': '1', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '0'}}
+{'line': '48', 'src': 'if (restmp > res)res = restmp;', 'storage': {'restmp': '7', 'temp': '10', 'i': '1', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '0'}}
+{'line': '49', 'src': 'if (temp < a.top() ){', 'storage': {'restmp': '7', 'temp': '10', 'i': '1', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '40', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '42', 'src': 'cin >> temp;', 'storage': {'temp': '10', 'i': '2', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '43', 'src': 'if (i == 0) {', 'storage': {'temp': '4', 'i': '2', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '47', 'src': 'int restmp = temp - a.top();', 'storage': {'restmp': '7', 'temp': '4', 'i': '2', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '48', 'src': 'if (restmp > res)res = restmp;', 'storage': {'restmp': '1', 'temp': '4', 'i': '2', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '49', 'src': 'if (temp < a.top() ){', 'storage': {'restmp': '1', 'temp': '4', 'i': '2', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '40', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '2', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '42', 'src': 'cin >> temp;', 'storage': {'temp': '4', 'i': '3', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '43', 'src': 'if (i == 0) {', 'storage': {'temp': '5', 'i': '3', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '47', 'src': 'int restmp = temp - a.top();', 'storage': {'restmp': '1', 'temp': '5', 'i': '3', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '48', 'src': 'if (restmp > res)res = restmp;', 'storage': {'restmp': '2', 'temp': '5', 'i': '3', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '49', 'src': 'if (temp < a.top() ){', 'storage': {'restmp': '2', 'temp': '5', 'i': '3', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '40', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '3', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '42', 'src': 'cin >> temp;', 'storage': {'temp': '5', 'i': '4', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '43', 'src': 'if (i == 0) {', 'storage': {'temp': '6', 'i': '4', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '47', 'src': 'int restmp = temp - a.top();', 'storage': {'restmp': '2', 'temp': '6', 'i': '4', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '48', 'src': 'if (restmp > res)res = restmp;', 'storage': {'restmp': '3', 'temp': '6', 'i': '4', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '49', 'src': 'if (temp < a.top() ){', 'storage': {'restmp': '3', 'temp': '6', 'i': '4', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '40', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '4', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '42', 'src': 'cin >> temp;', 'storage': {'temp': '6', 'i': '5', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '43', 'src': 'if (i == 0) {', 'storage': {'temp': '3', 'i': '5', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '47', 'src': 'int restmp = temp - a.top();', 'storage': {'restmp': '3', 'temp': '3', 'i': '5', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '48', 'src': 'if (restmp > res)res = restmp;', 'storage': {'restmp': '0', 'temp': '3', 'i': '5', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '49', 'src': 'if (temp < a.top() ){', 'storage': {'restmp': '0', 'temp': '3', 'i': '5', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '40', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '5', 'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '60', 'src': 'cout << res;', 'storage': {'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}
+{'line': '63', 'src': '}', 'storage': {'n': '6', 'a': 'std::stack wrapping: std::deque with 1 element = {3}', 'res': '7'}}

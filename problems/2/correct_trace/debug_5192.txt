@@ -1,0 +1,33 @@
+{'line': '9', 'src': 'cin >> n;', 'storage': {'max_r': '1651076199'}}
+{'line': '10', 'src': 'int max_r = 0;', 'storage': {'max_r': '1651076199'}}
+{'line': '11', 'src': 'cin >> a[0];', 'storage': {'max_r': '0'}}
+{'line': '12', 'src': 'min_l[0] = a[0];', 'storage': {'max_r': '0'}}
+{'line': '13', 'src': 'for (int i = 1; i < n; i++)', 'storage': {'i': '779647075', 'max_r': '0'}}
+{'line': '15', 'src': 'cin >> a[i];', 'storage': {'i': '1', 'max_r': '0'}}
+{'line': '16', 'src': 'if (a[i] - min_l[i - 1] > max_r)', 'storage': {'i': '1', 'max_r': '0'}}
+{'line': '18', 'src': 'max_r = a[i] - min_l[i - 1];', 'storage': {'i': '1', 'max_r': '0'}}
+{'line': '20', 'src': 'if (a[i] < min_l[i-1])', 'storage': {'i': '1', 'max_r': '7'}}
+{'line': '25', 'src': 'min_l[i] = min_l[i - 1];', 'storage': {'i': '1', 'max_r': '7'}}
+{'line': '13', 'src': 'for (int i = 1; i < n; i++)', 'storage': {'i': '1', 'max_r': '7'}}
+{'line': '15', 'src': 'cin >> a[i];', 'storage': {'i': '2', 'max_r': '7'}}
+{'line': '16', 'src': 'if (a[i] - min_l[i - 1] > max_r)', 'storage': {'i': '2', 'max_r': '7'}}
+{'line': '20', 'src': 'if (a[i] < min_l[i-1])', 'storage': {'i': '2', 'max_r': '7'}}
+{'line': '25', 'src': 'min_l[i] = min_l[i - 1];', 'storage': {'i': '2', 'max_r': '7'}}
+{'line': '13', 'src': 'for (int i = 1; i < n; i++)', 'storage': {'i': '2', 'max_r': '7'}}
+{'line': '15', 'src': 'cin >> a[i];', 'storage': {'i': '3', 'max_r': '7'}}
+{'line': '16', 'src': 'if (a[i] - min_l[i - 1] > max_r)', 'storage': {'i': '3', 'max_r': '7'}}
+{'line': '20', 'src': 'if (a[i] < min_l[i-1])', 'storage': {'i': '3', 'max_r': '7'}}
+{'line': '25', 'src': 'min_l[i] = min_l[i - 1];', 'storage': {'i': '3', 'max_r': '7'}}
+{'line': '13', 'src': 'for (int i = 1; i < n; i++)', 'storage': {'i': '3', 'max_r': '7'}}
+{'line': '15', 'src': 'cin >> a[i];', 'storage': {'i': '4', 'max_r': '7'}}
+{'line': '16', 'src': 'if (a[i] - min_l[i - 1] > max_r)', 'storage': {'i': '4', 'max_r': '7'}}
+{'line': '20', 'src': 'if (a[i] < min_l[i-1])', 'storage': {'i': '4', 'max_r': '7'}}
+{'line': '25', 'src': 'min_l[i] = min_l[i - 1];', 'storage': {'i': '4', 'max_r': '7'}}
+{'line': '13', 'src': 'for (int i = 1; i < n; i++)', 'storage': {'i': '4', 'max_r': '7'}}
+{'line': '15', 'src': 'cin >> a[i];', 'storage': {'i': '5', 'max_r': '7'}}
+{'line': '16', 'src': 'if (a[i] - min_l[i - 1] > max_r)', 'storage': {'i': '5', 'max_r': '7'}}
+{'line': '20', 'src': 'if (a[i] < min_l[i-1])', 'storage': {'i': '5', 'max_r': '7'}}
+{'line': '25', 'src': 'min_l[i] = min_l[i - 1];', 'storage': {'i': '5', 'max_r': '7'}}
+{'line': '13', 'src': 'for (int i = 1; i < n; i++)', 'storage': {'i': '5', 'max_r': '7'}}
+{'line': '28', 'src': 'cout << max_r << endl;', 'storage': {'max_r': '7'}}
+{'line': '29', 'src': '}', 'storage': {'max_r': '7'}}

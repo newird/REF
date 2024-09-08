@@ -1,0 +1,31 @@
+{'line': '4', 'src': '{', 'storage': {'n': '-135900000', 'max': '1651076199', 'min': '0x12000', 'temp': '32767', 'i': '779647075'}}
+{'line': '6', 'src': 'cin >> n;', 'storage': {'n': '-135900000', 'max': '1651076199', 'min': '0x12000', 'temp': '32767', 'i': '779647075'}}
+{'line': '7', 'src': 'int max=0;', 'storage': {'n': '6', 'max': '1651076199', 'min': '0x12000', 'temp': '32767', 'i': '779647075'}}
+{'line': '8', 'src': 'int* min = new int[n];', 'storage': {'n': '6', 'max': '0', 'min': '0x12000', 'temp': '32767', 'i': '779647075'}}
+{'line': '10', 'src': 'int i = 0;', 'storage': {'n': '6', 'max': '0', 'min': '0x55555556c2c0', 'temp': '32767', 'i': '779647075'}}
+{'line': '11', 'src': 'cin >> min[0];', 'storage': {'n': '6', 'max': '0', 'min': '0x55555556c2c0', 'temp': '32767', 'i': '0'}}
+{'line': '12', 'src': 'for (i = 1; i < n; i++) {', 'storage': {'n': '6', 'max': '0', 'min': '0x55555556c2c0', 'temp': '32767', 'i': '0'}}
+{'line': '13', 'src': 'cin >> temp;', 'storage': {'n': '6', 'max': '0', 'min': '0x55555556c2c0', 'temp': '32767', 'i': '1'}}
+{'line': '14', 'src': 'min[i]= (temp < min[i - 1]) ? temp : min[i - 1];', 'storage': {'n': '6', 'max': '0', 'min': '0x55555556c2c0', 'temp': '10', 'i': '1'}}
+{'line': '15', 'src': 'if (temp - min[i - 1] > max) max = temp - min[i - 1];', 'storage': {'n': '6', 'max': '0', 'min': '0x55555556c2c0', 'temp': '10', 'i': '1'}}
+{'line': '12', 'src': 'for (i = 1; i < n; i++) {', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '10', 'i': '1'}}
+{'line': '13', 'src': 'cin >> temp;', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '10', 'i': '2'}}
+{'line': '14', 'src': 'min[i]= (temp < min[i - 1]) ? temp : min[i - 1];', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '4', 'i': '2'}}
+{'line': '15', 'src': 'if (temp - min[i - 1] > max) max = temp - min[i - 1];', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '4', 'i': '2'}}
+{'line': '12', 'src': 'for (i = 1; i < n; i++) {', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '4', 'i': '2'}}
+{'line': '13', 'src': 'cin >> temp;', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '4', 'i': '3'}}
+{'line': '14', 'src': 'min[i]= (temp < min[i - 1]) ? temp : min[i - 1];', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '5', 'i': '3'}}
+{'line': '15', 'src': 'if (temp - min[i - 1] > max) max = temp - min[i - 1];', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '5', 'i': '3'}}
+{'line': '12', 'src': 'for (i = 1; i < n; i++) {', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '5', 'i': '3'}}
+{'line': '13', 'src': 'cin >> temp;', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '5', 'i': '4'}}
+{'line': '14', 'src': 'min[i]= (temp < min[i - 1]) ? temp : min[i - 1];', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '6', 'i': '4'}}
+{'line': '15', 'src': 'if (temp - min[i - 1] > max) max = temp - min[i - 1];', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '6', 'i': '4'}}
+{'line': '12', 'src': 'for (i = 1; i < n; i++) {', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '6', 'i': '4'}}
+{'line': '13', 'src': 'cin >> temp;', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '6', 'i': '5'}}
+{'line': '14', 'src': 'min[i]= (temp < min[i - 1]) ? temp : min[i - 1];', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '3', 'i': '5'}}
+{'line': '15', 'src': 'if (temp - min[i - 1] > max) max = temp - min[i - 1];', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '3', 'i': '5'}}
+{'line': '12', 'src': 'for (i = 1; i < n; i++) {', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '3', 'i': '5'}}
+{'line': '17', 'src': 'cout << max << endl;', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '3', 'i': '6'}}
+{'line': '18', 'src': 'delete[] min;', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '3', 'i': '6'}}
+{'line': '19', 'src': 'return 0;', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '3', 'i': '6'}}
+{'line': '20', 'src': '}', 'storage': {'n': '6', 'max': '7', 'min': '0x55555556c2c0', 'temp': '3', 'i': '6'}}

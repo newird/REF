@@ -1,0 +1,42 @@
+{'line': '21', 'src': 'int main(){', 'storage': {'n': '1651076199', 'num': '0x12000'}}
+{'line': '23', 'src': 'cin>>n;', 'storage': {'n': '1651076199', 'num': '0x12000'}}
+{'line': '24', 'src': 'int *num=new int[n];', 'storage': {'n': '6', 'num': '0x12000'}}
+{'line': '25', 'src': 'for(int i=0;i<n;i++)', 'storage': {'i': '779647075', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '27', 'src': 'cin>>num[i];', 'storage': {'i': '0', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '25', 'src': 'for(int i=0;i<n;i++)', 'storage': {'i': '0', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '27', 'src': 'cin>>num[i];', 'storage': {'i': '1', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '25', 'src': 'for(int i=0;i<n;i++)', 'storage': {'i': '1', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '27', 'src': 'cin>>num[i];', 'storage': {'i': '2', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '25', 'src': 'for(int i=0;i<n;i++)', 'storage': {'i': '2', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '27', 'src': 'cin>>num[i];', 'storage': {'i': '3', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '25', 'src': 'for(int i=0;i<n;i++)', 'storage': {'i': '3', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '27', 'src': 'cin>>num[i];', 'storage': {'i': '4', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '25', 'src': 'for(int i=0;i<n;i++)', 'storage': {'i': '4', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '27', 'src': 'cin>>num[i];', 'storage': {'i': '5', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '25', 'src': 'for(int i=0;i<n;i++)', 'storage': {'i': '5', 'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '29', 'src': 'cout<<maxprofit(num, n);', 'storage': {'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '5', 'src': 'int min= INT_MAX,max= 0;', 'storage': {'min': '32767', 'max': '-134230016', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '6', 'src': 'for(int i = 0;i<n;i++)', 'storage': {'i': '32767', 'min': '2147483647', 'max': '0', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '8', 'src': 'if(min>num[i])', 'storage': {'i': '0', 'min': '2147483647', 'max': '0', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '10', 'src': 'min= num[i];', 'storage': {'i': '0', 'min': '2147483647', 'max': '0', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '6', 'src': 'for(int i = 0;i<n;i++)', 'storage': {'i': '0', 'min': '3', 'max': '0', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '8', 'src': 'if(min>num[i])', 'storage': {'i': '1', 'min': '3', 'max': '0', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '12', 'src': 'else if(max<num[i]-min)', 'storage': {'i': '1', 'min': '3', 'max': '0', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '14', 'src': 'max= num[i]-min;', 'storage': {'i': '1', 'min': '3', 'max': '0', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '6', 'src': 'for(int i = 0;i<n;i++)', 'storage': {'i': '1', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '8', 'src': 'if(min>num[i])', 'storage': {'i': '2', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '12', 'src': 'else if(max<num[i]-min)', 'storage': {'i': '2', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '6', 'src': 'for(int i = 0;i<n;i++)', 'storage': {'i': '2', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '8', 'src': 'if(min>num[i])', 'storage': {'i': '3', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '12', 'src': 'else if(max<num[i]-min)', 'storage': {'i': '3', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '6', 'src': 'for(int i = 0;i<n;i++)', 'storage': {'i': '3', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '8', 'src': 'if(min>num[i])', 'storage': {'i': '4', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '12', 'src': 'else if(max<num[i]-min)', 'storage': {'i': '4', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '6', 'src': 'for(int i = 0;i<n;i++)', 'storage': {'i': '4', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '8', 'src': 'if(min>num[i])', 'storage': {'i': '5', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '12', 'src': 'else if(max<num[i]-min)', 'storage': {'i': '5', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '6', 'src': 'for(int i = 0;i<n;i++)', 'storage': {'i': '5', 'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '17', 'src': 'return max;', 'storage': {'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '18', 'src': '}', 'storage': {'min': '3', 'max': '7', 'num': '0x55555556c2c0', 'n': '6'}}
+{'line': '30', 'src': 'return 0;', 'storage': {'n': '6', 'num': '0x55555556c2c0'}}
+{'line': '31', 'src': '}', 'storage': {'n': '6', 'num': '0x55555556c2c0'}}

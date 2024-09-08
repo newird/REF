@@ -1,0 +1,38 @@
+{'line': '6', 'src': 'int main() {', 'storage': {'n': '4607', 'data': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable data (Cannot access memory at address 0x0)>', 'largest': '0', 'minest': '1600677166'}}
+{'line': '8', 'src': 'cin >> n;', 'storage': {'n': '4607', 'data': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable data (Cannot access memory at address 0x0)>', 'largest': '0', 'minest': '1600677166'}}
+{'line': '9', 'src': 'vector<int>data(n);', 'storage': {'n': '6', 'data': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable data (Cannot access memory at address 0x0)>', 'largest': '0', 'minest': '1600677166'}}
+{'line': '9', 'src': 'vector<int>data(n);', 'storage': {'n': '6', 'data': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable data (Cannot access memory at address 0x0)>', 'largest': '0', 'minest': '1600677166'}}
+{'line': '9', 'src': 'vector<int>data(n);', 'storage': {'n': '6', 'data': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '10', 'src': 'for (int i = 0;i < n;i++)', 'storage': {'i': '-1', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '11', 'src': 'cin >> data[i];', 'storage': {'i': '0', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '10', 'src': 'for (int i = 0;i < n;i++)', 'storage': {'i': '0', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '11', 'src': 'cin >> data[i];', 'storage': {'i': '1', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '10', 'src': 'for (int i = 0;i < n;i++)', 'storage': {'i': '1', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 0, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '11', 'src': 'cin >> data[i];', 'storage': {'i': '2', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 0, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '10', 'src': 'for (int i = 0;i < n;i++)', 'storage': {'i': '2', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '11', 'src': 'cin >> data[i];', 'storage': {'i': '3', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 0, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '10', 'src': 'for (int i = 0;i < n;i++)', 'storage': {'i': '3', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '11', 'src': 'cin >> data[i];', 'storage': {'i': '4', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 0, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '10', 'src': 'for (int i = 0;i < n;i++)', 'storage': {'i': '4', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '11', 'src': 'cin >> data[i];', 'storage': {'i': '5', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 0}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '10', 'src': 'for (int i = 0;i < n;i++)', 'storage': {'i': '5', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '12', 'src': 'int largest = 0, minest = 0;', 'storage': {'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '0', 'minest': '1600677166'}}
+{'line': '13', 'src': 'for (int i = 1;i < n;i++) {', 'storage': {'i': '1819242352', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '0', 'minest': '0'}}
+{'line': '14', 'src': 'if (data[i] < data[minest])', 'storage': {'i': '1', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '0', 'minest': '0'}}
+{'line': '17', 'src': 'largest = max(data[i] - data[minest],largest);', 'storage': {'i': '1', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '0', 'minest': '0'}}
+{'line': '13', 'src': 'for (int i = 1;i < n;i++) {', 'storage': {'i': '1', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '14', 'src': 'if (data[i] < data[minest])', 'storage': {'i': '2', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '17', 'src': 'largest = max(data[i] - data[minest],largest);', 'storage': {'i': '2', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '13', 'src': 'for (int i = 1;i < n;i++) {', 'storage': {'i': '2', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '14', 'src': 'if (data[i] < data[minest])', 'storage': {'i': '3', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '17', 'src': 'largest = max(data[i] - data[minest],largest);', 'storage': {'i': '3', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '13', 'src': 'for (int i = 1;i < n;i++) {', 'storage': {'i': '3', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '14', 'src': 'if (data[i] < data[minest])', 'storage': {'i': '4', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '17', 'src': 'largest = max(data[i] - data[minest],largest);', 'storage': {'i': '4', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '13', 'src': 'for (int i = 1;i < n;i++) {', 'storage': {'i': '4', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '14', 'src': 'if (data[i] < data[minest])', 'storage': {'i': '5', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '17', 'src': 'largest = max(data[i] - data[minest],largest);', 'storage': {'i': '5', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '13', 'src': 'for (int i = 1;i < n;i++) {', 'storage': {'i': '5', 'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '19', 'src': 'cout << largest;', 'storage': {'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '20', 'src': 'return 0;', 'storage': {'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}
+{'line': '21', 'src': '}', 'storage': {'n': '6', 'data': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'largest': '7', 'minest': '0'}}

@@ -1,0 +1,76 @@
+{'line': '6', 'src': '{', 'storage': {'n': '1819242352', 'a': '<error reading variable a (value requires 562949393818540 bytes, which is more than max-value-size)>', 'helper': '32767'}}
+{'line': '26', 'src': '}', 'storage': {'n': '1819242352', 'a': '<error reading variable a (value requires 562949393818540 bytes, which is more than max-value-size)>', 'helper': '32767'}}
+{'line': '8', 'src': 'cin>>n;', 'storage': {'n': '1819242352', 'a': '<error reading variable a (value requires 562949393818540 bytes, which is more than max-value-size)>', 'helper': '32767'}}
+{'line': '9', 'src': 'int a[n];', 'storage': {'n': '6', 'a': '<error reading variable a (value requires 562949393818540 bytes, which is more than max-value-size)>', 'helper': '32767'}}
+{'line': '10', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '-135899912', 'n': '6', 'a': '{-8432, 32767, -134230016, 32767, -8368, 32767}', 'helper': '32767'}}
+{'line': '12', 'src': 'cin >> a[i];', 'storage': {'i': '0', 'n': '6', 'a': '{-8432, 32767, -134230016, 32767, -8368, 32767}', 'helper': '32767'}}
+{'line': '10', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '0', 'n': '6', 'a': '{3, 32767, -134230016, 32767, -8368, 32767}', 'helper': '32767'}}
+{'line': '12', 'src': 'cin >> a[i];', 'storage': {'i': '1', 'n': '6', 'a': '{3, 32767, -134230016, 32767, -8368, 32767}', 'helper': '32767'}}
+{'line': '10', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '1', 'n': '6', 'a': '{3, 10, -134230016, 32767, -8368, 32767}', 'helper': '32767'}}
+{'line': '12', 'src': 'cin >> a[i];', 'storage': {'i': '2', 'n': '6', 'a': '{3, 10, -134230016, 32767, -8368, 32767}', 'helper': '32767'}}
+{'line': '10', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '2', 'n': '6', 'a': '{3, 10, 4, 32767, -8368, 32767}', 'helper': '32767'}}
+{'line': '12', 'src': 'cin >> a[i];', 'storage': {'i': '3', 'n': '6', 'a': '{3, 10, 4, 32767, -8368, 32767}', 'helper': '32767'}}
+{'line': '10', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, -8368, 32767}', 'helper': '32767'}}
+{'line': '12', 'src': 'cin >> a[i];', 'storage': {'i': '4', 'n': '6', 'a': '{3, 10, 4, 5, -8368, 32767}', 'helper': '32767'}}
+{'line': '10', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '4', 'n': '6', 'a': '{3, 10, 4, 5, 6, 32767}', 'helper': '32767'}}
+{'line': '12', 'src': 'cin >> a[i];', 'storage': {'i': '5', 'n': '6', 'a': '{3, 10, 4, 5, 6, 32767}', 'helper': '32767'}}
+{'line': '10', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '5', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '32767'}}
+{'line': '14', 'src': 'int helper = 0;', 'storage': {'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '32767'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '0'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '0', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '0'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '0', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '0'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '0', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '0'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '1', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '0'}}
+{'line': '21', 'src': 'helper = a[j] - a[i];', 'storage': {'j': '1', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '0'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '1', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '2', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '2', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '3', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '3', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '4', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '4', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '5', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '5', 'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '0', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '6', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '1', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '1', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '2', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '2', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '3', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '3', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '4', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '4', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '5', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '5', 'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '1', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '6', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '2', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '2', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '3', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '3', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '4', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '4', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '5', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '5', 'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '2', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '6', 'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '3', 'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '3', 'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '4', 'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '4', 'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '5', 'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '5', 'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '3', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '6', 'i': '4', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '4', 'i': '4', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '4', 'i': '4', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '5', 'i': '4', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '5', 'i': '4', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '4', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '6', 'i': '5', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '19', 'src': 'if (a[j] - a[i] > helper)', 'storage': {'j': '5', 'i': '5', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '17', 'src': 'for (int j = i; j < n; j++)', 'storage': {'j': '5', 'i': '5', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '5', 'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '25', 'src': 'cout << helper;', 'storage': {'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}
+{'line': '26', 'src': '}', 'storage': {'n': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'helper': '7'}}

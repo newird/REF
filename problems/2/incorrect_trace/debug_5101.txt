@@ -1,0 +1,84 @@
+{'line': '51', 'src': 'int main() {', 'storage': {'n': '-139900694', 'pr': '0x12000', 'max': '32767', 'index': '-135900000'}}
+{'line': '53', 'src': 'cin >> n;', 'storage': {'n': '-139900694', 'pr': '0x12000', 'max': '32767', 'index': '-135900000'}}
+{'line': '54', 'src': 'int* pr = new int[n];', 'storage': {'n': '6', 'pr': '0x12000', 'max': '32767', 'index': '-135900000'}}
+{'line': '55', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '32767', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '57', 'src': 'cin >> pr[i];', 'storage': {'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '55', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '57', 'src': 'cin >> pr[i];', 'storage': {'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '55', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '57', 'src': 'cin >> pr[i];', 'storage': {'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '55', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '57', 'src': 'cin >> pr[i];', 'storage': {'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '55', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '57', 'src': 'cin >> pr[i];', 'storage': {'i': '4', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '55', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '4', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '57', 'src': 'cin >> pr[i];', 'storage': {'i': '5', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '55', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '5', 'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '59', 'src': 'int max = 0, index = 0;', 'storage': {'n': '6', 'pr': '0x55555556c2c0', 'max': '32767', 'index': '-135900000'}}
+{'line': '60', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '1651076199', 'n': '6', 'pr': '0x55555556c2c0', 'max': '0', 'index': '0'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '779647075', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '0', 'index': '0'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '1', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '0', 'index': '0'}}
+{'line': '65', 'src': 'index = pr[j] - pr[i];', 'storage': {'j': '1', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '0', 'index': '0'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '1', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '0', 'index': '7'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '1', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '7'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '2', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '7'}}
+{'line': '65', 'src': 'index = pr[j] - pr[i];', 'storage': {'j': '2', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '7'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '2', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '2', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '3', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '65', 'src': 'index = pr[j] - pr[i];', 'storage': {'j': '3', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '3', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '3', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '4', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '65', 'src': 'index = pr[j] - pr[i];', 'storage': {'j': '4', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '4', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '4', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '5', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '5', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '5', 'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '60', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '0', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '6', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '2', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '2', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '2', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '3', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '3', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '3', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '4', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '4', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '4', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '5', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '5', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '5', 'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '60', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '1', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '6', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '3', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '65', 'src': 'index = pr[j] - pr[i];', 'storage': {'j': '3', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '3'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '3', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '3', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '4', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '65', 'src': 'index = pr[j] - pr[i];', 'storage': {'j': '4', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '4', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '4', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '5', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '5', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '5', 'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '60', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '2', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '6', 'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '4', 'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '65', 'src': 'index = pr[j] - pr[i];', 'storage': {'j': '4', 'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '2'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '4', 'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '4', 'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '5', 'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '5', 'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '5', 'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '60', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '3', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '6', 'i': '4', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '64', 'src': 'if (pr[j] - pr[i] > 0)', 'storage': {'j': '5', 'i': '4', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '66', 'src': 'max = std::max(max, index);', 'storage': {'j': '5', 'i': '4', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '5', 'i': '4', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '60', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '4', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '62', 'src': 'for (int j = i + 1; j < n; j++)', 'storage': {'j': '6', 'i': '5', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '60', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '5', 'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '69', 'src': 'cout << max;', 'storage': {'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}
+{'line': '70', 'src': '}', 'storage': {'n': '6', 'pr': '0x55555556c2c0', 'max': '7', 'index': '1'}}

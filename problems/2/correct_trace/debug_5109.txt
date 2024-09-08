@@ -1,0 +1,52 @@
+{'line': '18', 'src': '{', 'storage': {'n': '32767', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '20', 'src': 'cin >> n;', 'storage': {'n': '32767', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '21', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '32767', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '23', 'src': 'cin >> num[i];', 'storage': {'i': '0', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '21', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '0', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '23', 'src': 'cin >> num[i];', 'storage': {'i': '1', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '21', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '1', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '23', 'src': 'cin >> num[i];', 'storage': {'i': '2', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '21', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '2', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '23', 'src': 'cin >> num[i];', 'storage': {'i': '3', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '21', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '3', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '23', 'src': 'cin >> num[i];', 'storage': {'i': '4', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '21', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '4', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '23', 'src': 'cin >> num[i];', 'storage': {'i': '5', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '21', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '5', 'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '25', 'src': 'stack<int>st;', 'storage': {'n': '6', 'st': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '26', 'src': 'int temp = 0;', 'storage': {'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '-139903336', 'out': '32767'}}
+{'line': '27', 'src': 'for (int i = n-1; i >= 0; --i)', 'storage': {'i': '1432470176', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '0', 'out': '32767'}}
+{'line': '29', 'src': 'temp = max(temp, num[i]);', 'storage': {'i': '5', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '0', 'out': '32767'}}
+{'line': '30', 'src': 'dp[i] = temp;', 'storage': {'i': '5', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '3', 'out': '32767'}}
+{'line': '27', 'src': 'for (int i = n-1; i >= 0; --i)', 'storage': {'i': '5', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '3', 'out': '32767'}}
+{'line': '29', 'src': 'temp = max(temp, num[i]);', 'storage': {'i': '4', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '3', 'out': '32767'}}
+{'line': '30', 'src': 'dp[i] = temp;', 'storage': {'i': '4', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '27', 'src': 'for (int i = n-1; i >= 0; --i)', 'storage': {'i': '4', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '29', 'src': 'temp = max(temp, num[i]);', 'storage': {'i': '3', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '30', 'src': 'dp[i] = temp;', 'storage': {'i': '3', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '27', 'src': 'for (int i = n-1; i >= 0; --i)', 'storage': {'i': '3', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '29', 'src': 'temp = max(temp, num[i]);', 'storage': {'i': '2', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '30', 'src': 'dp[i] = temp;', 'storage': {'i': '2', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '27', 'src': 'for (int i = n-1; i >= 0; --i)', 'storage': {'i': '2', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '29', 'src': 'temp = max(temp, num[i]);', 'storage': {'i': '1', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '6', 'out': '32767'}}
+{'line': '30', 'src': 'dp[i] = temp;', 'storage': {'i': '1', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '32767'}}
+{'line': '27', 'src': 'for (int i = n-1; i >= 0; --i)', 'storage': {'i': '1', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '32767'}}
+{'line': '29', 'src': 'temp = max(temp, num[i]);', 'storage': {'i': '0', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '32767'}}
+{'line': '30', 'src': 'dp[i] = temp;', 'storage': {'i': '0', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '32767'}}
+{'line': '27', 'src': 'for (int i = n-1; i >= 0; --i)', 'storage': {'i': '0', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '32767'}}
+{'line': '32', 'src': 'int out = 0;', 'storage': {'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '32767'}}
+{'line': '33', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '21845', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '0'}}
+{'line': '35', 'src': 'out = max(dp[i] - num[i], out);', 'storage': {'i': '0', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '0'}}
+{'line': '33', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '0', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '35', 'src': 'out = max(dp[i] - num[i], out);', 'storage': {'i': '1', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '33', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '1', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '35', 'src': 'out = max(dp[i] - num[i], out);', 'storage': {'i': '2', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '33', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '2', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '35', 'src': 'out = max(dp[i] - num[i], out);', 'storage': {'i': '3', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '33', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '3', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '35', 'src': 'out = max(dp[i] - num[i], out);', 'storage': {'i': '4', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '33', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '4', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '35', 'src': 'out = max(dp[i] - num[i], out);', 'storage': {'i': '5', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '33', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '5', 'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '37', 'src': 'cout << out;', 'storage': {'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}
+{'line': '38', 'src': '}', 'storage': {'n': '6', 'st': 'std::stack wrapping: std::deque with 0 elements', 'temp': '10', 'out': '7'}}

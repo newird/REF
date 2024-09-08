@@ -1,0 +1,54 @@
+{'line': '5', 'src': 'int main() {', 'storage': {'s': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'time': '32767', 'input': '-135840352', 'max': '32767', 'lowest': '1431675552'}}
+{'line': '6', 'src': 'stack<int> s;\t//栈内总是从最低价开始的升序序列', 'storage': {'s': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'time': '32767', 'input': '-135840352', 'max': '32767', 'lowest': '1431675552'}}
+{'line': '9', 'src': 'cin >> time;', 'storage': {'s': 'std::stack wrapping: std::deque with 0 elements', 'time': '32767', 'input': '-135840352', 'max': '32767', 'lowest': '1431675552'}}
+{'line': '11', 'src': 'cin >> input;', 'storage': {'s': 'std::stack wrapping: std::deque with 0 elements', 'time': '6', 'input': '-135840352', 'max': '32767', 'lowest': '1431675552'}}
+{'line': '12', 'src': 's.push(input);', 'storage': {'s': 'std::stack wrapping: std::deque with 0 elements', 'time': '6', 'input': '3', 'max': '32767', 'lowest': '1431675552'}}
+{'line': '13', 'src': 'int max = 0;', 'storage': {'s': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '32767', 'lowest': '1431675552'}}
+{'line': '14', 'src': 'int lowest = input;', 'storage': {'s': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '0', 'lowest': '1431675552'}}
+{'line': '17', 'src': 'for (int i = 1; i < time; i++) {', 'storage': {'i': '21845', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '0', 'lowest': '3'}}
+{'line': '18', 'src': 'cin >> input;', 'storage': {'i': '1', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '0', 'lowest': '3'}}
+{'line': '19', 'src': 'if (input > s.top()) {', 'storage': {'i': '1', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '10', 'max': '0', 'lowest': '3'}}
+{'line': '21', 'src': 's.push(input);', 'storage': {'i': '1', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '10', 'max': '0', 'lowest': '3'}}
+{'line': '17', 'src': 'for (int i = 1; i < time; i++) {', 'storage': {'i': '1', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'time': '6', 'input': '10', 'max': '0', 'lowest': '3'}}
+{'line': '18', 'src': 'cin >> input;', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'time': '6', 'input': '10', 'max': '0', 'lowest': '3'}}
+{'line': '19', 'src': 'if (input > s.top()) {', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'time': '6', 'input': '4', 'max': '0', 'lowest': '3'}}
+{'line': '23', 'src': 'else if (input == s.top()) {', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'time': '6', 'input': '4', 'max': '0', 'lowest': '3'}}
+{'line': '29', 'src': 'max = (max > (s.top() - lowest) ? max : (s.top() - lowest));', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'time': '6', 'input': '4', 'max': '0', 'lowest': '3'}}
+{'line': '30', 'src': 'while (s.top() >= input) {', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'time': '6', 'input': '4', 'max': '7', 'lowest': '3'}}
+{'line': '31', 'src': 's.pop();', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'time': '6', 'input': '4', 'max': '7', 'lowest': '3'}}
+{'line': '32', 'src': 'if (s.empty()) {', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '4', 'max': '7', 'lowest': '3'}}
+{'line': '30', 'src': 'while (s.top() >= input) {', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '4', 'max': '7', 'lowest': '3'}}
+{'line': '37', 'src': 's.push(input);', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '4', 'max': '7', 'lowest': '3'}}
+{'line': '17', 'src': 'for (int i = 1; i < time; i++) {', 'storage': {'i': '2', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'time': '6', 'input': '4', 'max': '7', 'lowest': '3'}}
+{'line': '18', 'src': 'cin >> input;', 'storage': {'i': '3', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'time': '6', 'input': '4', 'max': '7', 'lowest': '3'}}
+{'line': '19', 'src': 'if (input > s.top()) {', 'storage': {'i': '3', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'time': '6', 'input': '5', 'max': '7', 'lowest': '3'}}
+{'line': '21', 'src': 's.push(input);', 'storage': {'i': '3', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'time': '6', 'input': '5', 'max': '7', 'lowest': '3'}}
+{'line': '17', 'src': 'for (int i = 1; i < time; i++) {', 'storage': {'i': '3', 's': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'time': '6', 'input': '5', 'max': '7', 'lowest': '3'}}
+{'line': '18', 'src': 'cin >> input;', 'storage': {'i': '4', 's': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'time': '6', 'input': '5', 'max': '7', 'lowest': '3'}}
+{'line': '19', 'src': 'if (input > s.top()) {', 'storage': {'i': '4', 's': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'time': '6', 'input': '6', 'max': '7', 'lowest': '3'}}
+{'line': '21', 'src': 's.push(input);', 'storage': {'i': '4', 's': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'time': '6', 'input': '6', 'max': '7', 'lowest': '3'}}
+{'line': '17', 'src': 'for (int i = 1; i < time; i++) {', 'storage': {'i': '4', 's': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'time': '6', 'input': '6', 'max': '7', 'lowest': '3'}}
+{'line': '18', 'src': 'cin >> input;', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'time': '6', 'input': '6', 'max': '7', 'lowest': '3'}}
+{'line': '19', 'src': 'if (input > s.top()) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '23', 'src': 'else if (input == s.top()) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '29', 'src': 'max = (max > (s.top() - lowest) ? max : (s.top() - lowest));', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '30', 'src': 'while (s.top() >= input) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '31', 'src': 's.pop();', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '32', 'src': 'if (s.empty()) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '30', 'src': 'while (s.top() >= input) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '31', 'src': 's.pop();', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '32', 'src': 'if (s.empty()) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '30', 'src': 'while (s.top() >= input) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '31', 'src': 's.pop();', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '32', 'src': 'if (s.empty()) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '30', 'src': 'while (s.top() >= input) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '31', 'src': 's.pop();', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '32', 'src': 'if (s.empty()) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 0 elements', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '33', 'src': 'lowest = input;', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 0 elements', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '34', 'src': 'break;', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 0 elements', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '37', 'src': 's.push(input);', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 0 elements', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '17', 'src': 'for (int i = 1; i < time; i++) {', 'storage': {'i': '5', 's': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '40', 'src': 'max = (max > (s.top() - lowest) ? max : (s.top() - lowest));', 'storage': {'s': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '41', 'src': 'cout << max;', 'storage': {'s': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '42', 'src': 'return 0;', 'storage': {'s': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}
+{'line': '45', 'src': '}', 'storage': {'s': 'std::stack wrapping: std::deque with 1 element = {3}', 'time': '6', 'input': '3', 'max': '7', 'lowest': '3'}}

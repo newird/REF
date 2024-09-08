@@ -1,0 +1,78 @@
+{'line': '32', 'src': 'int main() {', 'storage': {'q': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'n': '32767', 'mymax': '-135840352', 'b': '32767', 't': '21845'}}
+{'line': '33', 'src': 'stack<int>q;', 'storage': {'q': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'n': '32767', 'mymax': '-135840352', 'b': '32767', 't': '21845'}}
+{'line': '35', 'src': 'cin >> n;', 'storage': {'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '32767', 'mymax': '-135840352', 'b': '32767', 't': '21845'}}
+{'line': '36', 'src': 'int mymax=0;', 'storage': {'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '-135840352', 'b': '32767', 't': '21845'}}
+{'line': '37', 'src': 'int b = 0;', 'storage': {'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '0', 'b': '32767', 't': '21845'}}
+{'line': '38', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1431675552', 'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '0', 'b': '0', 't': '21845'}}
+{'line': '40', 'src': 'cin >> m;', 'storage': {'m': '-139903336', 'i': '0', 'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '0', 'b': '0', 't': '21845'}}
+{'line': '42', 'src': 'if (q.empty()) {', 'storage': {'m': '3', 'i': '0', 'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '0', 'b': '0', 't': '21845'}}
+{'line': '43', 'src': 'q.push(m);', 'storage': {'m': '3', 'i': '0', 'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '0', 'b': '0', 't': '21845'}}
+{'line': '44', 'src': 'b = m;', 'storage': {'m': '3', 'i': '0', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '0', 't': '21845'}}
+{'line': '38', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '0', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3', 't': '21845'}}
+{'line': '40', 'src': 'cin >> m;', 'storage': {'m': '3', 'i': '1', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3', 't': '21845'}}
+{'line': '42', 'src': 'if (q.empty()) {', 'storage': {'m': '10', 'i': '1', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3', 't': '21845'}}
+{'line': '47', 'src': 'int t = q.top();', 'storage': {'t': '21845', 'm': '10', 'i': '1', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '48', 'src': 'q.pop();', 'storage': {'t': '21845', 'm': '10', 'i': '1', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '49', 'src': 'if (q.empty()) {', 'storage': {'t': '21845', 'm': '10', 'i': '1', 'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '50', 'src': 'if (t > m) {', 'storage': {'t': '21845', 'm': '10', 'i': '1', 'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '55', 'src': 'q.push(t);', 'storage': {'t': '21845', 'm': '10', 'i': '1', 'q': 'std::stack wrapping: std::deque with 0 elements', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '56', 'src': 'q.push(m);', 'storage': {'t': '21845', 'm': '10', 'i': '1', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '57', 'src': 'b = t;', 'storage': {'t': '21845', 'm': '10', 'i': '1', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '38', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '1', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'n': '6', 'mymax': '0', 'b': '3', 't': '21845'}}
+{'line': '40', 'src': 'cin >> m;', 'storage': {'m': '10', 'i': '2', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'n': '6', 'mymax': '0', 'b': '3', 't': '21845'}}
+{'line': '42', 'src': 'if (q.empty()) {', 'storage': {'m': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'n': '6', 'mymax': '0', 'b': '3', 't': '21845'}}
+{'line': '47', 'src': 'int t = q.top();', 'storage': {'t': '21845', 'm': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '48', 'src': 'q.pop();', 'storage': {'t': '21845', 'm': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 10}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '49', 'src': 'if (q.empty()) {', 'storage': {'t': '21845', 'm': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '61', 'src': 'if (t > m) {', 'storage': {'t': '21845', 'm': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '62', 'src': 'mymax = lmax(t - b, mymax);', 'storage': {'t': '21845', 'm': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '0', 'b': '3'}}
+{'line': '28', 'src': 'return a > b ? a : b;', 'storage': {'a': '7', 'b': '0'}}
+{'line': '29', 'src': '}', 'storage': {'a': '7', 'b': '0'}}
+{'line': '63', 'src': 't = q.top();', 'storage': {'t': '21845', 'm': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '64', 'src': 'while (t > m) {', 'storage': {'t': '21845', 'm': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '68', 'src': 'q.push(m);', 'storage': {'t': '21845', 'm': '4', 'i': '2', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '38', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '2', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '40', 'src': 'cin >> m;', 'storage': {'m': '4', 'i': '3', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '42', 'src': 'if (q.empty()) {', 'storage': {'m': '5', 'i': '3', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '47', 'src': 'int t = q.top();', 'storage': {'t': '21845', 'm': '5', 'i': '3', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '48', 'src': 'q.pop();', 'storage': {'t': '21845', 'm': '5', 'i': '3', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '49', 'src': 'if (q.empty()) {', 'storage': {'t': '21845', 'm': '5', 'i': '3', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '61', 'src': 'if (t > m) {', 'storage': {'t': '21845', 'm': '5', 'i': '3', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '71', 'src': 'q.push(t);', 'storage': {'t': '21845', 'm': '5', 'i': '3', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '72', 'src': 'q.push(m);', 'storage': {'t': '21845', 'm': '5', 'i': '3', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '38', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '3', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '40', 'src': 'cin >> m;', 'storage': {'m': '5', 'i': '4', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '42', 'src': 'if (q.empty()) {', 'storage': {'m': '6', 'i': '4', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '47', 'src': 'int t = q.top();', 'storage': {'t': '21845', 'm': '6', 'i': '4', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '48', 'src': 'q.pop();', 'storage': {'t': '21845', 'm': '6', 'i': '4', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '49', 'src': 'if (q.empty()) {', 'storage': {'t': '21845', 'm': '6', 'i': '4', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '61', 'src': 'if (t > m) {', 'storage': {'t': '21845', 'm': '6', 'i': '4', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '71', 'src': 'q.push(t);', 'storage': {'t': '21845', 'm': '6', 'i': '4', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '72', 'src': 'q.push(m);', 'storage': {'t': '21845', 'm': '6', 'i': '4', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '38', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '4', 'q': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '40', 'src': 'cin >> m;', 'storage': {'m': '6', 'i': '5', 'q': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '42', 'src': 'if (q.empty()) {', 'storage': {'m': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '47', 'src': 'int t = q.top();', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '48', 'src': 'q.pop();', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 4 elements = {3, 4, 5, 6}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '49', 'src': 'if (q.empty()) {', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '61', 'src': 'if (t > m) {', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '62', 'src': 'mymax = lmax(t - b, mymax);', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '28', 'src': 'return a > b ? a : b;', 'storage': {'a': '3', 'b': '7'}}
+{'line': '29', 'src': '}', 'storage': {'a': '3', 'b': '7'}}
+{'line': '63', 'src': 't = q.top();', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '64', 'src': 'while (t > m) {', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '65', 'src': 'q.pop();', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 3 elements = {3, 4, 5}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '66', 'src': 't = q.top();', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '64', 'src': 'while (t > m) {', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '65', 'src': 'q.pop();', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 4}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '66', 'src': 't = q.top();', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '64', 'src': 'while (t > m) {', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '68', 'src': 'q.push(m);', 'storage': {'t': '21845', 'm': '3', 'i': '5', 'q': 'std::stack wrapping: std::deque with 1 element = {3}', 'n': '6', 'mymax': '7', 'b': '3'}}
+{'line': '38', 'src': 'for (int i = 0; i < n; i++) {', 'storage': {'i': '5', 'q': 'std::stack wrapping: std::deque with 2 elements = {3, 3}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '77', 'src': 'int t = q.top();', 'storage': {'q': 'std::stack wrapping: std::deque with 2 elements = {3, 3}', 'n': '6', 'mymax': '7', 'b': '3', 't': '21845'}}
+{'line': '78', 'src': 'mymax = lmax(mymax, t-b);', 'storage': {'q': 'std::stack wrapping: std::deque with 2 elements = {3, 3}', 'n': '6', 'mymax': '7', 'b': '3', 't': '3'}}
+{'line': '28', 'src': 'return a > b ? a : b;', 'storage': {'a': '7', 'b': '0'}}
+{'line': '29', 'src': '}', 'storage': {'a': '7', 'b': '0'}}
+{'line': '79', 'src': 'cout << mymax;', 'storage': {'q': 'std::stack wrapping: std::deque with 2 elements = {3, 3}', 'n': '6', 'mymax': '7', 'b': '3', 't': '3'}}
+{'line': '81', 'src': 'return 0;', 'storage': {'q': 'std::stack wrapping: std::deque with 2 elements = {3, 3}', 'n': '6', 'mymax': '7', 'b': '3', 't': '3'}}
+{'line': '82', 'src': '}', 'storage': {'q': 'std::stack wrapping: std::deque with 2 elements = {3, 3}', 'n': '6', 'mymax': '7', 'b': '3', 't': '3'}}

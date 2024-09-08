@@ -1,0 +1,31 @@
+{'line': '9', 'src': 'int main() {', 'storage': {}}
+{'line': '10', 'src': 'scanf("%d", &n);', 'storage': {}}
+{'line': '11', 'src': 'minn = 100005;', 'storage': {}}
+{'line': '12', 'src': 'for(int i = 1; i <= n; i++) {', 'storage': {'i': '0'}}
+{'line': '13', 'src': 'scanf("%d", &a);', 'storage': {'i': '1'}}
+{'line': '14', 'src': 'ans = max(ans, a - minn);', 'storage': {'i': '1'}}
+{'line': '15', 'src': 'minn = min(minn, a);', 'storage': {'i': '1'}}
+{'line': '12', 'src': 'for(int i = 1; i <= n; i++) {', 'storage': {'i': '1'}}
+{'line': '13', 'src': 'scanf("%d", &a);', 'storage': {'i': '2'}}
+{'line': '14', 'src': 'ans = max(ans, a - minn);', 'storage': {'i': '2'}}
+{'line': '15', 'src': 'minn = min(minn, a);', 'storage': {'i': '2'}}
+{'line': '12', 'src': 'for(int i = 1; i <= n; i++) {', 'storage': {'i': '2'}}
+{'line': '13', 'src': 'scanf("%d", &a);', 'storage': {'i': '3'}}
+{'line': '14', 'src': 'ans = max(ans, a - minn);', 'storage': {'i': '3'}}
+{'line': '15', 'src': 'minn = min(minn, a);', 'storage': {'i': '3'}}
+{'line': '12', 'src': 'for(int i = 1; i <= n; i++) {', 'storage': {'i': '3'}}
+{'line': '13', 'src': 'scanf("%d", &a);', 'storage': {'i': '4'}}
+{'line': '14', 'src': 'ans = max(ans, a - minn);', 'storage': {'i': '4'}}
+{'line': '15', 'src': 'minn = min(minn, a);', 'storage': {'i': '4'}}
+{'line': '12', 'src': 'for(int i = 1; i <= n; i++) {', 'storage': {'i': '4'}}
+{'line': '13', 'src': 'scanf("%d", &a);', 'storage': {'i': '5'}}
+{'line': '14', 'src': 'ans = max(ans, a - minn);', 'storage': {'i': '5'}}
+{'line': '15', 'src': 'minn = min(minn, a);', 'storage': {'i': '5'}}
+{'line': '12', 'src': 'for(int i = 1; i <= n; i++) {', 'storage': {'i': '5'}}
+{'line': '13', 'src': 'scanf("%d", &a);', 'storage': {'i': '6'}}
+{'line': '14', 'src': 'ans = max(ans, a - minn);', 'storage': {'i': '6'}}
+{'line': '15', 'src': 'minn = min(minn, a);', 'storage': {'i': '6'}}
+{'line': '12', 'src': 'for(int i = 1; i <= n; i++) {', 'storage': {'i': '6'}}
+{'line': '17', 'src': 'printf("%d", ans);', 'storage': {}}
+{'line': '18', 'src': 'return 0;', 'storage': {}}
+{'line': '19', 'src': '}', 'storage': {}}

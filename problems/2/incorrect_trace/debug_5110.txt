@@ -1,0 +1,60 @@
+{'line': '4', 'src': 'int main(){', 'storage': {}}
+{'line': '5', 'src': 'cin>>n;', 'storage': {}}
+{'line': '6', 'src': 'for(int i=1;i<=n;i++) {', 'storage': {'i': '779647075'}}
+{'line': '7', 'src': 'scanf("%d", &p[i]);', 'storage': {'i': '1'}}
+{'line': '6', 'src': 'for(int i=1;i<=n;i++) {', 'storage': {'i': '1'}}
+{'line': '7', 'src': 'scanf("%d", &p[i]);', 'storage': {'i': '2'}}
+{'line': '6', 'src': 'for(int i=1;i<=n;i++) {', 'storage': {'i': '2'}}
+{'line': '7', 'src': 'scanf("%d", &p[i]);', 'storage': {'i': '3'}}
+{'line': '6', 'src': 'for(int i=1;i<=n;i++) {', 'storage': {'i': '3'}}
+{'line': '7', 'src': 'scanf("%d", &p[i]);', 'storage': {'i': '4'}}
+{'line': '6', 'src': 'for(int i=1;i<=n;i++) {', 'storage': {'i': '4'}}
+{'line': '7', 'src': 'scanf("%d", &p[i]);', 'storage': {'i': '5'}}
+{'line': '6', 'src': 'for(int i=1;i<=n;i++) {', 'storage': {'i': '5'}}
+{'line': '7', 'src': 'scanf("%d", &p[i]);', 'storage': {'i': '6'}}
+{'line': '6', 'src': 'for(int i=1;i<=n;i++) {', 'storage': {'i': '6'}}
+{'line': '9', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '73728'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '0', 'i': '1'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '2', 'i': '1'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '2', 'i': '1'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '3', 'i': '1'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '3', 'i': '1'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '4', 'i': '1'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '4', 'i': '1'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '5', 'i': '1'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '5', 'i': '1'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '6', 'i': '1'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '6', 'i': '1'}}
+{'line': '9', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '1'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '7', 'i': '2'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '3', 'i': '2'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '3', 'i': '2'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '4', 'i': '2'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '4', 'i': '2'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '5', 'i': '2'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '5', 'i': '2'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '6', 'i': '2'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '6', 'i': '2'}}
+{'line': '9', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '2'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '7', 'i': '3'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '4', 'i': '3'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '4', 'i': '3'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '5', 'i': '3'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '5', 'i': '3'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '6', 'i': '3'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '6', 'i': '3'}}
+{'line': '9', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '3'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '7', 'i': '4'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '5', 'i': '4'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '5', 'i': '4'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '6', 'i': '4'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '6', 'i': '4'}}
+{'line': '9', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '4'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '7', 'i': '5'}}
+{'line': '11', 'src': 'ans = max(ans, p[j]-p[i]);', 'storage': {'j': '6', 'i': '5'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '6', 'i': '5'}}
+{'line': '9', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '5'}}
+{'line': '10', 'src': 'for(int j=i+1;j<=n;j++){', 'storage': {'j': '7', 'i': '6'}}
+{'line': '9', 'src': 'for(int i=1;i<=n;i++){', 'storage': {'i': '6'}}
+{'line': '14', 'src': 'cout<<ans;', 'storage': {}}
+{'line': '15', 'src': '}', 'storage': {}}

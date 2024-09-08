@@ -1,0 +1,39 @@
+{'line': '7', 'src': '{', 'storage': {'maxmoney': '-135840352', 'input': '-139903336', 'n': '32767', 'data': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'current': '1431675552'}}
+{'line': '8', 'src': 'int maxmoney = 0;', 'storage': {'maxmoney': '-135840352', 'input': '-139903336', 'n': '32767', 'data': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'current': '1431675552'}}
+{'line': '11', 'src': 'cin >> n;', 'storage': {'maxmoney': '0', 'input': '-139903336', 'n': '32767', 'data': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'current': '1431675552'}}
+{'line': '12', 'src': 'stack<int> data;', 'storage': {'maxmoney': '0', 'input': '-139903336', 'n': '6', 'data': 'std::stack wrapping: std::deque with 2216613237162818 elements', 'current': '1431675552'}}
+{'line': '13', 'src': 'for (int i = 0; i < n-1; i++)', 'storage': {'i': '32767', 'maxmoney': '0', 'input': '-139903336', 'n': '6', 'data': 'std::stack wrapping: std::deque with 0 elements', 'current': '1431675552'}}
+{'line': '15', 'src': 'cin >> input;', 'storage': {'i': '0', 'maxmoney': '0', 'input': '-139903336', 'n': '6', 'data': 'std::stack wrapping: std::deque with 0 elements', 'current': '1431675552'}}
+{'line': '16', 'src': 'if (data.empty())', 'storage': {'i': '0', 'maxmoney': '0', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 0 elements', 'current': '1431675552'}}
+{'line': '18', 'src': 'data.push(input);', 'storage': {'i': '0', 'maxmoney': '0', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 0 elements', 'current': '1431675552'}}
+{'line': '13', 'src': 'for (int i = 0; i < n-1; i++)', 'storage': {'i': '0', 'maxmoney': '0', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '15', 'src': 'cin >> input;', 'storage': {'i': '1', 'maxmoney': '0', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '16', 'src': 'if (data.empty())', 'storage': {'i': '1', 'maxmoney': '0', 'input': '10', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '22', 'src': 'int current = data.top();', 'storage': {'current': '1431675552', 'i': '1', 'maxmoney': '0', 'input': '10', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '23', 'src': 'maxmoney = (maxmoney >= input - current) ? maxmoney : input - current;', 'storage': {'current': '1431675552', 'i': '1', 'maxmoney': '0', 'input': '10', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '24', 'src': 'if (input < current)', 'storage': {'current': '1431675552', 'i': '1', 'maxmoney': '7', 'input': '10', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '13', 'src': 'for (int i = 0; i < n-1; i++)', 'storage': {'i': '1', 'maxmoney': '7', 'input': '10', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '15', 'src': 'cin >> input;', 'storage': {'i': '2', 'maxmoney': '7', 'input': '10', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '16', 'src': 'if (data.empty())', 'storage': {'i': '2', 'maxmoney': '7', 'input': '4', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '22', 'src': 'int current = data.top();', 'storage': {'current': '1431675552', 'i': '2', 'maxmoney': '7', 'input': '4', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '23', 'src': 'maxmoney = (maxmoney >= input - current) ? maxmoney : input - current;', 'storage': {'current': '1431675552', 'i': '2', 'maxmoney': '7', 'input': '4', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '24', 'src': 'if (input < current)', 'storage': {'current': '1431675552', 'i': '2', 'maxmoney': '7', 'input': '4', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '13', 'src': 'for (int i = 0; i < n-1; i++)', 'storage': {'i': '2', 'maxmoney': '7', 'input': '4', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '15', 'src': 'cin >> input;', 'storage': {'i': '3', 'maxmoney': '7', 'input': '4', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '16', 'src': 'if (data.empty())', 'storage': {'i': '3', 'maxmoney': '7', 'input': '5', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '22', 'src': 'int current = data.top();', 'storage': {'current': '1431675552', 'i': '3', 'maxmoney': '7', 'input': '5', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '23', 'src': 'maxmoney = (maxmoney >= input - current) ? maxmoney : input - current;', 'storage': {'current': '1431675552', 'i': '3', 'maxmoney': '7', 'input': '5', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '24', 'src': 'if (input < current)', 'storage': {'current': '1431675552', 'i': '3', 'maxmoney': '7', 'input': '5', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '13', 'src': 'for (int i = 0; i < n-1; i++)', 'storage': {'i': '3', 'maxmoney': '7', 'input': '5', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '15', 'src': 'cin >> input;', 'storage': {'i': '4', 'maxmoney': '7', 'input': '5', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '16', 'src': 'if (data.empty())', 'storage': {'i': '4', 'maxmoney': '7', 'input': '6', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '22', 'src': 'int current = data.top();', 'storage': {'current': '1431675552', 'i': '4', 'maxmoney': '7', 'input': '6', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '23', 'src': 'maxmoney = (maxmoney >= input - current) ? maxmoney : input - current;', 'storage': {'current': '1431675552', 'i': '4', 'maxmoney': '7', 'input': '6', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '24', 'src': 'if (input < current)', 'storage': {'current': '1431675552', 'i': '4', 'maxmoney': '7', 'input': '6', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}'}}
+{'line': '13', 'src': 'for (int i = 0; i < n-1; i++)', 'storage': {'i': '4', 'maxmoney': '7', 'input': '6', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '31', 'src': 'cin >> input;', 'storage': {'maxmoney': '7', 'input': '6', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '32', 'src': 'int current = data.top();', 'storage': {'maxmoney': '7', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '1431675552'}}
+{'line': '33', 'src': 'maxmoney = (maxmoney >= input - current) ? maxmoney : input - current;', 'storage': {'maxmoney': '7', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '3'}}
+{'line': '34', 'src': 'cout << maxmoney;', 'storage': {'maxmoney': '7', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '3'}}
+{'line': '35', 'src': 'return 0;', 'storage': {'maxmoney': '7', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '3'}}
+{'line': '36', 'src': '}', 'storage': {'maxmoney': '7', 'input': '3', 'n': '6', 'data': 'std::stack wrapping: std::deque with 1 element = {3}', 'current': '3'}}

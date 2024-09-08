@@ -1,0 +1,39 @@
+{'line': '9', 'src': '{', 'storage': {'ans': '3'}}
+{'line': '10', 'src': 'cin >> n;', 'storage': {'ans': '3'}}
+{'line': '11', 'src': 'int ans = 0; value[0] = 100000000;', 'storage': {'ans': '3'}}
+{'line': '12', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '0', 'ans': '0'}}
+{'line': '14', 'src': 'cin >> value[i];', 'storage': {'i': '1', 'ans': '0'}}
+{'line': '12', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '1', 'ans': '0'}}
+{'line': '14', 'src': 'cin >> value[i];', 'storage': {'i': '2', 'ans': '0'}}
+{'line': '12', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '2', 'ans': '0'}}
+{'line': '14', 'src': 'cin >> value[i];', 'storage': {'i': '3', 'ans': '0'}}
+{'line': '12', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '3', 'ans': '0'}}
+{'line': '14', 'src': 'cin >> value[i];', 'storage': {'i': '4', 'ans': '0'}}
+{'line': '12', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '4', 'ans': '0'}}
+{'line': '14', 'src': 'cin >> value[i];', 'storage': {'i': '5', 'ans': '0'}}
+{'line': '12', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '5', 'ans': '0'}}
+{'line': '14', 'src': 'cin >> value[i];', 'storage': {'i': '6', 'ans': '0'}}
+{'line': '12', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '6', 'ans': '0'}}
+{'line': '16', 'src': 's.push(0);', 'storage': {'ans': '0'}}
+{'line': '17', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '0', 'ans': '0'}}
+{'line': '19', 'src': 'if (value[i] < value[s.top()])', 'storage': {'i': '1', 'ans': '0'}}
+{'line': '21', 'src': 's.push(i); continue;', 'storage': {'i': '1', 'ans': '0'}}
+{'line': '21', 'src': 's.push(i); continue;', 'storage': {'i': '1', 'ans': '0'}}
+{'line': '17', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '1', 'ans': '0'}}
+{'line': '19', 'src': 'if (value[i] < value[s.top()])', 'storage': {'i': '2', 'ans': '0'}}
+{'line': '25', 'src': 'ans = max(ans, value[i] - value[s.top()]);', 'storage': {'i': '2', 'ans': '0'}}
+{'line': '17', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '2', 'ans': '7'}}
+{'line': '19', 'src': 'if (value[i] < value[s.top()])', 'storage': {'i': '3', 'ans': '7'}}
+{'line': '25', 'src': 'ans = max(ans, value[i] - value[s.top()]);', 'storage': {'i': '3', 'ans': '7'}}
+{'line': '17', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '3', 'ans': '7'}}
+{'line': '19', 'src': 'if (value[i] < value[s.top()])', 'storage': {'i': '4', 'ans': '7'}}
+{'line': '25', 'src': 'ans = max(ans, value[i] - value[s.top()]);', 'storage': {'i': '4', 'ans': '7'}}
+{'line': '17', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '4', 'ans': '7'}}
+{'line': '19', 'src': 'if (value[i] < value[s.top()])', 'storage': {'i': '5', 'ans': '7'}}
+{'line': '25', 'src': 'ans = max(ans, value[i] - value[s.top()]);', 'storage': {'i': '5', 'ans': '7'}}
+{'line': '17', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '5', 'ans': '7'}}
+{'line': '19', 'src': 'if (value[i] < value[s.top()])', 'storage': {'i': '6', 'ans': '7'}}
+{'line': '25', 'src': 'ans = max(ans, value[i] - value[s.top()]);', 'storage': {'i': '6', 'ans': '7'}}
+{'line': '17', 'src': 'for (int i = 1; i <= n; i++)', 'storage': {'i': '6', 'ans': '7'}}
+{'line': '29', 'src': 'cout << ans;', 'storage': {'ans': '7'}}
+{'line': '30', 'src': '}', 'storage': {'ans': '7'}}

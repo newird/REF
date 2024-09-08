@@ -1,0 +1,54 @@
+{'line': '14', 'src': 'int main() {', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '0', 'wealth': '0', 'mini': '0'}}
+{'line': '15', 'src': 'int value[100000] = { 0 };', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '0', 'wealth': '0', 'mini': '0'}}
+{'line': '16', 'src': 'int num = 0;', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '0', 'wealth': '0', 'mini': '0'}}
+{'line': '17', 'src': 'cin >> num;', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '0', 'wealth': '0', 'mini': '0'}}
+{'line': '18', 'src': 'read_in(num, value);', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '0', 'mini': '0'}}
+{'line': '10', 'src': 'for (int i = 0; i < num; i++)', 'storage': {'i': '32767', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '11', 'src': 'cin >> value[i];', 'storage': {'i': '0', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '10', 'src': 'for (int i = 0; i < num; i++)', 'storage': {'i': '0', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '11', 'src': 'cin >> value[i];', 'storage': {'i': '1', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '10', 'src': 'for (int i = 0; i < num; i++)', 'storage': {'i': '1', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '11', 'src': 'cin >> value[i];', 'storage': {'i': '2', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '10', 'src': 'for (int i = 0; i < num; i++)', 'storage': {'i': '2', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '11', 'src': 'cin >> value[i];', 'storage': {'i': '3', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '10', 'src': 'for (int i = 0; i < num; i++)', 'storage': {'i': '3', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '11', 'src': 'cin >> value[i];', 'storage': {'i': '4', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '10', 'src': 'for (int i = 0; i < num; i++)', 'storage': {'i': '4', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '11', 'src': 'cin >> value[i];', 'storage': {'i': '5', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '10', 'src': 'for (int i = 0; i < num; i++)', 'storage': {'i': '5', 'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '12', 'src': '}', 'storage': {'num': '6', 'value': '0x7ffffff9c4d0'}}
+{'line': '19', 'src': 'int wealth = 0;;', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '0', 'mini': '0'}}
+{'line': '20', 'src': 'int mini = value[0];', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '0', 'mini': '0'}}
+{'line': '21', 'src': 'for (int i = 0; i < num; i++) {', 'storage': {'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '0', 'mini': '3'}}
+{'line': '22', 'src': 'if (value[i] <= mini) {', 'storage': {'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '0', 'mini': '3'}}
+{'line': '23', 'src': 'for (int j = i + 1; j < num; j++) {', 'storage': {'j': '0', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '0', 'mini': '3'}}
+{'line': '24', 'src': 'int ans = value[j] - value[i];', 'storage': {'ans': '0', 'j': '1', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '0', 'mini': '3'}}
+{'line': '25', 'src': 'if (ans > wealth) wealth = ans;', 'storage': {'ans': '7', 'j': '1', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '0', 'mini': '3'}}
+{'line': '23', 'src': 'for (int j = i + 1; j < num; j++) {', 'storage': {'j': '1', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '24', 'src': 'int ans = value[j] - value[i];', 'storage': {'ans': '7', 'j': '2', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '25', 'src': 'if (ans > wealth) wealth = ans;', 'storage': {'ans': '1', 'j': '2', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '23', 'src': 'for (int j = i + 1; j < num; j++) {', 'storage': {'j': '2', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '24', 'src': 'int ans = value[j] - value[i];', 'storage': {'ans': '1', 'j': '3', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '25', 'src': 'if (ans > wealth) wealth = ans;', 'storage': {'ans': '2', 'j': '3', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '23', 'src': 'for (int j = i + 1; j < num; j++) {', 'storage': {'j': '3', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '24', 'src': 'int ans = value[j] - value[i];', 'storage': {'ans': '2', 'j': '4', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '25', 'src': 'if (ans > wealth) wealth = ans;', 'storage': {'ans': '3', 'j': '4', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '23', 'src': 'for (int j = i + 1; j < num; j++) {', 'storage': {'j': '4', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '24', 'src': 'int ans = value[j] - value[i];', 'storage': {'ans': '3', 'j': '5', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '25', 'src': 'if (ans > wealth) wealth = ans;', 'storage': {'ans': '0', 'j': '5', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '23', 'src': 'for (int j = i + 1; j < num; j++) {', 'storage': {'j': '5', 'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '21', 'src': 'for (int i = 0; i < num; i++) {', 'storage': {'i': '0', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '22', 'src': 'if (value[i] <= mini) {', 'storage': {'i': '1', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '21', 'src': 'for (int i = 0; i < num; i++) {', 'storage': {'i': '1', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '22', 'src': 'if (value[i] <= mini) {', 'storage': {'i': '2', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '21', 'src': 'for (int i = 0; i < num; i++) {', 'storage': {'i': '2', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '22', 'src': 'if (value[i] <= mini) {', 'storage': {'i': '3', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '21', 'src': 'for (int i = 0; i < num; i++) {', 'storage': {'i': '3', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '22', 'src': 'if (value[i] <= mini) {', 'storage': {'i': '4', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '21', 'src': 'for (int i = 0; i < num; i++) {', 'storage': {'i': '4', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '22', 'src': 'if (value[i] <= mini) {', 'storage': {'i': '5', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '23', 'src': 'for (int j = i + 1; j < num; j++) {', 'storage': {'j': '6', 'i': '5', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '21', 'src': 'for (int i = 0; i < num; i++) {', 'storage': {'i': '5', 'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '29', 'src': 'cout << wealth;', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '30', 'src': 'return 0;', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}
+{'line': '31', 'src': '}', 'storage': {'value': '<error reading variable value (value requires 400000 bytes, which is more than max-value-size)>', 'num': '6', 'wealth': '7', 'mini': '3'}}

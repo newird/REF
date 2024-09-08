@@ -1,0 +1,59 @@
+{'line': '9', 'src': 'int main(){', 'storage': {'n': '0', 'ans': '-96', 'nums': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable nums (Cannot access memory at address 0x0)>', 'min': '1600677166'}}
+{'line': '11', 'src': 'cin >> n;', 'storage': {'n': '0', 'ans': '-96', 'nums': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable nums (Cannot access memory at address 0x0)>', 'min': '1600677166'}}
+{'line': '12', 'src': 'int ans = 0;', 'storage': {'n': '6', 'ans': '-96', 'nums': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable nums (Cannot access memory at address 0x0)>', 'min': '1600677166'}}
+{'line': '13', 'src': 'vector<int> nums(n);', 'storage': {'n': '6', 'ans': '0', 'nums': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable nums (Cannot access memory at address 0x0)>', 'min': '1600677166'}}
+{'line': '13', 'src': 'vector<int> nums(n);', 'storage': {'n': '6', 'ans': '0', 'nums': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable nums (Cannot access memory at address 0x0)>', 'min': '1600677166'}}
+{'line': '13', 'src': 'vector<int> nums(n);', 'storage': {'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '14', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '-1', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '15', 'src': 'cin >> nums[i];', 'storage': {'i': '0', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {0, 0, 0, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '14', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '0', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '15', 'src': 'cin >> nums[i];', 'storage': {'i': '1', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 0, 0, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '14', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '1', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 0, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '15', 'src': 'cin >> nums[i];', 'storage': {'i': '2', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 0, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '14', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '2', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '15', 'src': 'cin >> nums[i];', 'storage': {'i': '3', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 0, 0, 0}', 'min': '1600677166'}}
+{'line': '14', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '3', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 0, 0}', 'min': '1600677166'}}
+{'line': '15', 'src': 'cin >> nums[i];', 'storage': {'i': '4', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 0, 0}', 'min': '1600677166'}}
+{'line': '14', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '4', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 0}', 'min': '1600677166'}}
+{'line': '15', 'src': 'cin >> nums[i];', 'storage': {'i': '5', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 0}', 'min': '1600677166'}}
+{'line': '14', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '5', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '1600677166'}}
+{'line': '17', 'src': 'int min = 100000;', 'storage': {'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '1600677166'}}
+{'line': '19', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '1819242352', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '100000'}}
+{'line': '20', 'src': 'if(min == 100000){', 'storage': {'i': '0', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '100000'}}
+{'line': '21', 'src': 'min = nums[i];', 'storage': {'i': '0', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '100000'}}
+{'line': '19', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '0', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '20', 'src': 'if(min == 100000){', 'storage': {'i': '1', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '23', 'src': 'if(nums[i] > min){', 'storage': {'i': '1', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '24', 'src': 'ans = max(ans, nums[i] - min);', 'storage': {'i': '1', 'n': '6', 'ans': '0', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '36', 'src': 'if(a >= b){', 'storage': {'a': '0', 'b': '7'}}
+{'line': '39', 'src': 'return b;', 'storage': {'a': '0', 'b': '7'}}
+{'line': '40', 'src': '}', 'storage': {'a': '0', 'b': '7'}}
+{'line': '19', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '1', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '20', 'src': 'if(min == 100000){', 'storage': {'i': '2', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '23', 'src': 'if(nums[i] > min){', 'storage': {'i': '2', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '24', 'src': 'ans = max(ans, nums[i] - min);', 'storage': {'i': '2', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '36', 'src': 'if(a >= b){', 'storage': {'a': '7', 'b': '1'}}
+{'line': '37', 'src': 'return a;', 'storage': {'a': '7', 'b': '1'}}
+{'line': '40', 'src': '}', 'storage': {'a': '7', 'b': '1'}}
+{'line': '19', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '2', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '20', 'src': 'if(min == 100000){', 'storage': {'i': '3', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '23', 'src': 'if(nums[i] > min){', 'storage': {'i': '3', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '24', 'src': 'ans = max(ans, nums[i] - min);', 'storage': {'i': '3', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '36', 'src': 'if(a >= b){', 'storage': {'a': '7', 'b': '2'}}
+{'line': '37', 'src': 'return a;', 'storage': {'a': '7', 'b': '2'}}
+{'line': '40', 'src': '}', 'storage': {'a': '7', 'b': '2'}}
+{'line': '19', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '3', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '20', 'src': 'if(min == 100000){', 'storage': {'i': '4', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '23', 'src': 'if(nums[i] > min){', 'storage': {'i': '4', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '24', 'src': 'ans = max(ans, nums[i] - min);', 'storage': {'i': '4', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '36', 'src': 'if(a >= b){', 'storage': {'a': '7', 'b': '3'}}
+{'line': '37', 'src': 'return a;', 'storage': {'a': '7', 'b': '3'}}
+{'line': '40', 'src': '}', 'storage': {'a': '7', 'b': '3'}}
+{'line': '19', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '4', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '20', 'src': 'if(min == 100000){', 'storage': {'i': '5', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '23', 'src': 'if(nums[i] > min){', 'storage': {'i': '5', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '26', 'src': 'min = nums[i];', 'storage': {'i': '5', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '19', 'src': 'for(int i = 0; i < n; i++){', 'storage': {'i': '5', 'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '31', 'src': 'cout << ans << endl;', 'storage': {'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '32', 'src': 'return 0;', 'storage': {'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}
+{'line': '33', 'src': '}', 'storage': {'n': '6', 'ans': '7', 'nums': 'std::vector of length 6, capacity 6 = {3, 10, 4, 5, 6, 3}', 'min': '3'}}

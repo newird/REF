@@ -1,0 +1,60 @@
+{'line': '4', 'src': '{', 'storage': {'n': '-139900694', 'now_in': '32767', 'now_out': '-135900000', 'max_p': '32767', 'price': '0x12000'}}
+{'line': '6', 'src': 'cin >> n;', 'storage': {'n': '-139900694', 'now_in': '32767', 'now_out': '-135900000', 'max_p': '32767', 'price': '0x12000'}}
+{'line': '7', 'src': 'int now_in=-1;', 'storage': {'n': '6', 'now_in': '32767', 'now_out': '-135900000', 'max_p': '32767', 'price': '0x12000'}}
+{'line': '8', 'src': 'int now_out=-1;', 'storage': {'n': '6', 'now_in': '-1', 'now_out': '-135900000', 'max_p': '32767', 'price': '0x12000'}}
+{'line': '9', 'src': 'int max_p = 0;', 'storage': {'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '32767', 'price': '0x12000'}}
+{'line': '10', 'src': 'int* price = new int[n];', 'storage': {'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x12000'}}
+{'line': '11', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '1651076199', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '13', 'src': 'cin >> price[i];', 'storage': {'i': '0', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '11', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '0', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '13', 'src': 'cin >> price[i];', 'storage': {'i': '1', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '11', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '1', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '13', 'src': 'cin >> price[i];', 'storage': {'i': '2', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '11', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '2', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '13', 'src': 'cin >> price[i];', 'storage': {'i': '3', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '11', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '3', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '13', 'src': 'cin >> price[i];', 'storage': {'i': '4', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '11', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '4', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '13', 'src': 'cin >> price[i];', 'storage': {'i': '5', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '11', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '5', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '779647075', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '17', 'src': 'if (now_in == -1)', 'storage': {'i': '0', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '19', 'src': 'now_in = price[i];', 'storage': {'i': '0', 'n': '6', 'now_in': '-1', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '20', 'src': 'now_out = price[i];', 'storage': {'i': '0', 'n': '6', 'now_in': '3', 'now_out': '-1', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '27', 'src': 'if (now_out == -1)', 'storage': {'i': '0', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '31', 'src': 'else if (now_out < price[i])', 'storage': {'i': '0', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '37', 'src': 'max_p = max_p > now_out - now_in ? max_p : now_out - now_in;', 'storage': {'i': '0', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '0', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '17', 'src': 'if (now_in == -1)', 'storage': {'i': '1', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '22', 'src': 'else if (now_in > price[i])', 'storage': {'i': '1', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '27', 'src': 'if (now_out == -1)', 'storage': {'i': '1', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '31', 'src': 'else if (now_out < price[i])', 'storage': {'i': '1', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '33', 'src': 'now_out = price[i];', 'storage': {'i': '1', 'n': '6', 'now_in': '3', 'now_out': '3', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '1', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '17', 'src': 'if (now_in == -1)', 'storage': {'i': '2', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '22', 'src': 'else if (now_in > price[i])', 'storage': {'i': '2', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '27', 'src': 'if (now_out == -1)', 'storage': {'i': '2', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '31', 'src': 'else if (now_out < price[i])', 'storage': {'i': '2', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '37', 'src': 'max_p = max_p > now_out - now_in ? max_p : now_out - now_in;', 'storage': {'i': '2', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '0', 'price': '0x55555556c2c0'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '2', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '17', 'src': 'if (now_in == -1)', 'storage': {'i': '3', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '22', 'src': 'else if (now_in > price[i])', 'storage': {'i': '3', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '27', 'src': 'if (now_out == -1)', 'storage': {'i': '3', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '31', 'src': 'else if (now_out < price[i])', 'storage': {'i': '3', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '37', 'src': 'max_p = max_p > now_out - now_in ? max_p : now_out - now_in;', 'storage': {'i': '3', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '3', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '17', 'src': 'if (now_in == -1)', 'storage': {'i': '4', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '22', 'src': 'else if (now_in > price[i])', 'storage': {'i': '4', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '27', 'src': 'if (now_out == -1)', 'storage': {'i': '4', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '31', 'src': 'else if (now_out < price[i])', 'storage': {'i': '4', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '37', 'src': 'max_p = max_p > now_out - now_in ? max_p : now_out - now_in;', 'storage': {'i': '4', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '4', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '17', 'src': 'if (now_in == -1)', 'storage': {'i': '5', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '22', 'src': 'else if (now_in > price[i])', 'storage': {'i': '5', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '27', 'src': 'if (now_out == -1)', 'storage': {'i': '5', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '31', 'src': 'else if (now_out < price[i])', 'storage': {'i': '5', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '37', 'src': 'max_p = max_p > now_out - now_in ? max_p : now_out - now_in;', 'storage': {'i': '5', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '15', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '5', 'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '41', 'src': 'cout << max_p;', 'storage': {'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '42', 'src': 'return 0;', 'storage': {'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}
+{'line': '43', 'src': '}', 'storage': {'n': '6', 'now_in': '3', 'now_out': '10', 'max_p': '7', 'price': '0x55555556c2c0'}}

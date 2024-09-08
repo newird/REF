@@ -1,0 +1,282 @@
+{'line': '96', 'src': '{', 'storage': {'n': '1651076199', 'P': '0x12000'}}
+{'line': '98', 'src': 'cin >> n;', 'storage': {'n': '1651076199', 'P': '0x12000'}}
+{'line': '99', 'src': 'int* P = new int[n];', 'storage': {'n': '6', 'P': '0x12000'}}
+{'line': '100', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '779647075', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '101', 'src': 'cin >> P[i];', 'storage': {'i': '0', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '100', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '0', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '101', 'src': 'cin >> P[i];', 'storage': {'i': '1', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '100', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '1', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '101', 'src': 'cin >> P[i];', 'storage': {'i': '2', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '100', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '2', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '101', 'src': 'cin >> P[i];', 'storage': {'i': '3', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '100', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '3', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '101', 'src': 'cin >> P[i];', 'storage': {'i': '4', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '100', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '4', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '101', 'src': 'cin >> P[i];', 'storage': {'i': '5', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '100', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '5', 'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '102', 'src': 'cout << maxProfit(n, P);', 'storage': {'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '77', 'src': '{', 'storage': {'q': '{head = 0x6c6f6f705f68652e, rear = 0x1bd1ac0}', 'max_in': '-8436', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '78', 'src': 'Queue<int> q;//保证递增', 'storage': {'q': '{head = 0x6c6f6f705f68652e, rear = 0x1bd1ac0}', 'max_in': '-8436', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '22', 'src': '{', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '23', 'src': 'head = new node<T>;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '11', 'src': 'node() { }', 'storage': {'this': '0x55555556c2e0'}}
+{'line': '24', 'src': 'rear = head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '25', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '79', 'src': 'int max_in = 0;', 'storage': {'q': '{head = 0x55555556c2e0, rear = 0x55555556c2e0}', 'max_in': '-8436', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '80', 'src': 'for (int i = 0; i < days_num; i++)', 'storage': {'i': '32767', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c2e0}', 'max_in': '0', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '0', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c2e0}', 'max_in': '0', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '88', 'src': 'q.EnQueue(incomes[i]);', 'storage': {'i': '0', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c2e0}', 'max_in': '0', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '39', 'src': 'node<T>* q = new node<T>(x);', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00', 'x': '3'}}
+{'line': '12', 'src': 'node(T e) :ele(e) { }', 'storage': {'this': '0x55555556c300', 'e': '3'}}
+{'line': '40', 'src': 'rear->next = q;', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00', 'x': '3'}}
+{'line': '41', 'src': 'rear = q;', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00', 'x': '3'}}
+{'line': '42', 'src': '}', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00', 'x': '3'}}
+{'line': '80', 'src': 'for (int i = 0; i < days_num; i++)', 'storage': {'i': '0', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '0', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '1', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '0', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '88', 'src': 'q.EnQueue(incomes[i]);', 'storage': {'i': '1', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '0', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '39', 'src': 'node<T>* q = new node<T>(x);', 'storage': {'q': '0x555555555532 <Queue<int>::getBack() const+24>', 'this': '0x7fffffffdf00', 'x': '10'}}
+{'line': '12', 'src': 'node(T e) :ele(e) { }', 'storage': {'this': '0x55555556c320', 'e': '10'}}
+{'line': '40', 'src': 'rear->next = q;', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00', 'x': '10'}}
+{'line': '41', 'src': 'rear = q;', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00', 'x': '10'}}
+{'line': '42', 'src': '}', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00', 'x': '10'}}
+{'line': '80', 'src': 'for (int i = 0; i < days_num; i++)', 'storage': {'i': '1', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '0', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '2', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '0', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '84', 'src': 'int current_in = q.getBack() - q.getFront();', 'storage': {'current_in': '-8432', 'i': '2', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '0', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '65', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '66', 'src': 'return head->next->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '67', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '85', 'src': 'max_in = max_in < current_in ? current_in : max_in;', 'storage': {'current_in': '-8432', 'i': '2', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '0', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '86', 'src': 'q.DeQueueBack();', 'storage': {'current_in': '-8432', 'i': '2', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '52', 'src': 'if (isEmpty()) return;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '53', 'src': 'node<T>* q = rear;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '54', 'src': 'for (rear = head; rear->next != q; rear = rear->next)', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00'}}
+{'line': '56', 'src': 'delete q;', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00'}}
+{'line': '57', 'src': 'rear->next = NULL;', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00'}}
+{'line': '58', 'src': '}', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '2', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '88', 'src': 'q.EnQueue(incomes[i]);', 'storage': {'i': '2', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '39', 'src': 'node<T>* q = new node<T>(x);', 'storage': {'q': '0x555555555532 <Queue<int>::getBack() const+24>', 'this': '0x7fffffffdf00', 'x': '4'}}
+{'line': '12', 'src': 'node(T e) :ele(e) { }', 'storage': {'this': '0x55555556c320', 'e': '4'}}
+{'line': '40', 'src': 'rear->next = q;', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00', 'x': '4'}}
+{'line': '41', 'src': 'rear = q;', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00', 'x': '4'}}
+{'line': '42', 'src': '}', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00', 'x': '4'}}
+{'line': '80', 'src': 'for (int i = 0; i < days_num; i++)', 'storage': {'i': '2', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '3', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '88', 'src': 'q.EnQueue(incomes[i]);', 'storage': {'i': '3', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '39', 'src': 'node<T>* q = new node<T>(x);', 'storage': {'q': '0x555555555532 <Queue<int>::getBack() const+24>', 'this': '0x7fffffffdf00', 'x': '5'}}
+{'line': '12', 'src': 'node(T e) :ele(e) { }', 'storage': {'this': '0x55555556c340', 'e': '5'}}
+{'line': '40', 'src': 'rear->next = q;', 'storage': {'q': '0x55555556c340', 'this': '0x7fffffffdf00', 'x': '5'}}
+{'line': '41', 'src': 'rear = q;', 'storage': {'q': '0x55555556c340', 'this': '0x7fffffffdf00', 'x': '5'}}
+{'line': '42', 'src': '}', 'storage': {'q': '0x55555556c340', 'this': '0x7fffffffdf00', 'x': '5'}}
+{'line': '80', 'src': 'for (int i = 0; i < days_num; i++)', 'storage': {'i': '3', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c340}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '4', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c340}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '88', 'src': 'q.EnQueue(incomes[i]);', 'storage': {'i': '4', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c340}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '39', 'src': 'node<T>* q = new node<T>(x);', 'storage': {'q': '0x555555555532 <Queue<int>::getBack() const+24>', 'this': '0x7fffffffdf00', 'x': '6'}}
+{'line': '12', 'src': 'node(T e) :ele(e) { }', 'storage': {'this': '0x55555556c360', 'e': '6'}}
+{'line': '40', 'src': 'rear->next = q;', 'storage': {'q': '0x55555556c360', 'this': '0x7fffffffdf00', 'x': '6'}}
+{'line': '41', 'src': 'rear = q;', 'storage': {'q': '0x55555556c360', 'this': '0x7fffffffdf00', 'x': '6'}}
+{'line': '42', 'src': '}', 'storage': {'q': '0x55555556c360', 'this': '0x7fffffffdf00', 'x': '6'}}
+{'line': '80', 'src': 'for (int i = 0; i < days_num; i++)', 'storage': {'i': '4', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c360}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c360}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '84', 'src': 'int current_in = q.getBack() - q.getFront();', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c360}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '65', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '66', 'src': 'return head->next->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '67', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '85', 'src': 'max_in = max_in < current_in ? current_in : max_in;', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c360}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '86', 'src': 'q.DeQueueBack();', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c360}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '52', 'src': 'if (isEmpty()) return;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '53', 'src': 'node<T>* q = rear;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '54', 'src': 'for (rear = head; rear->next != q; rear = rear->next)', 'storage': {'q': '0x55555556c360', 'this': '0x7fffffffdf00'}}
+{'line': '56', 'src': 'delete q;', 'storage': {'q': '0x55555556c360', 'this': '0x7fffffffdf00'}}
+{'line': '57', 'src': 'rear->next = NULL;', 'storage': {'q': '0x55555556c360', 'this': '0x7fffffffdf00'}}
+{'line': '58', 'src': '}', 'storage': {'q': '0x55555556c360', 'this': '0x7fffffffdf00'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c340}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '84', 'src': 'int current_in = q.getBack() - q.getFront();', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c340}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '65', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '66', 'src': 'return head->next->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '67', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '85', 'src': 'max_in = max_in < current_in ? current_in : max_in;', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c340}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '86', 'src': 'q.DeQueueBack();', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c340}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '52', 'src': 'if (isEmpty()) return;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '53', 'src': 'node<T>* q = rear;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '54', 'src': 'for (rear = head; rear->next != q; rear = rear->next)', 'storage': {'q': '0x55555556c340', 'this': '0x7fffffffdf00'}}
+{'line': '56', 'src': 'delete q;', 'storage': {'q': '0x55555556c340', 'this': '0x7fffffffdf00'}}
+{'line': '57', 'src': 'rear->next = NULL;', 'storage': {'q': '0x55555556c340', 'this': '0x7fffffffdf00'}}
+{'line': '58', 'src': '}', 'storage': {'q': '0x55555556c340', 'this': '0x7fffffffdf00'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '84', 'src': 'int current_in = q.getBack() - q.getFront();', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '65', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '66', 'src': 'return head->next->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '67', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '85', 'src': 'max_in = max_in < current_in ? current_in : max_in;', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '86', 'src': 'q.DeQueueBack();', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c320}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '52', 'src': 'if (isEmpty()) return;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '53', 'src': 'node<T>* q = rear;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '54', 'src': 'for (rear = head; rear->next != q; rear = rear->next)', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00'}}
+{'line': '56', 'src': 'delete q;', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00'}}
+{'line': '57', 'src': 'rear->next = NULL;', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00'}}
+{'line': '58', 'src': '}', 'storage': {'q': '0x55555556c320', 'this': '0x7fffffffdf00'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '84', 'src': 'int current_in = q.getBack() - q.getFront();', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '65', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '66', 'src': 'return head->next->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '67', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '85', 'src': 'max_in = max_in < current_in ? current_in : max_in;', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '86', 'src': 'q.DeQueueBack();', 'storage': {'current_in': '-8432', 'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '52', 'src': 'if (isEmpty()) return;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '53', 'src': 'node<T>* q = rear;', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00'}}
+{'line': '54', 'src': 'for (rear = head; rear->next != q; rear = rear->next)', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00'}}
+{'line': '56', 'src': 'delete q;', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00'}}
+{'line': '57', 'src': 'rear->next = NULL;', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00'}}
+{'line': '58', 'src': '}', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00'}}
+{'line': '82', 'src': 'while (!q.isEmpty() && q.getBack() >= incomes[i])', 'storage': {'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c2e0}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '88', 'src': 'q.EnQueue(incomes[i]);', 'storage': {'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c2e0}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '39', 'src': 'node<T>* q = new node<T>(x);', 'storage': {'q': '0x7fffffffdf00', 'this': '0x7fffffffdf00', 'x': '3'}}
+{'line': '12', 'src': 'node(T e) :ele(e) { }', 'storage': {'this': '0x55555556c300', 'e': '3'}}
+{'line': '40', 'src': 'rear->next = q;', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00', 'x': '3'}}
+{'line': '41', 'src': 'rear = q;', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00', 'x': '3'}}
+{'line': '42', 'src': '}', 'storage': {'q': '0x55555556c300', 'this': '0x7fffffffdf00', 'x': '3'}}
+{'line': '80', 'src': 'for (int i = 0; i < days_num; i++)', 'storage': {'i': '5', 'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '90', 'src': 'int current_in = q.getBack() - q.getFront();', 'storage': {'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '-8432', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '70', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '71', 'src': 'return rear->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '72', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '65', 'src': 'if (isEmpty()) throw("Empty!");', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '61', 'src': 'return rear == head;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '62', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '66', 'src': 'return head->next->ele;', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '67', 'src': '}', 'storage': {'this': '0x7fffffffdf00'}}
+{'line': '91', 'src': 'max_in = max_in < current_in ? current_in : max_in;', 'storage': {'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '0', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '92', 'src': 'return max_in;', 'storage': {'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '0', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '93', 'src': '}', 'storage': {'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '0', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '28', 'src': 'node<T>* q0 = head;', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '29', 'src': 'node<T>* q1 = q0;', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '30', 'src': 'while (q1 != NULL)', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '32', 'src': 'q1 = q1->next;', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '33', 'src': 'delete q0;', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '34', 'src': 'q0 = q1;', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '30', 'src': 'while (q1 != NULL)', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '32', 'src': 'q1 = q1->next;', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '33', 'src': 'delete q0;', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '34', 'src': 'q0 = q1;', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '30', 'src': 'while (q1 != NULL)', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '36', 'src': '}', 'storage': {'q0': '<optimized out>', 'q1': '<optimized out>', 'this': '0x7fffffffdf00', '__in_chrg': '<optimized out>'}}
+{'line': '92', 'src': 'return max_in;', 'storage': {'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '0', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '93', 'src': '}', 'storage': {'q': '{head = 0x55555556c2e0, rear = 0x55555556c300}', 'max_in': '7', 'current_in': '0', 'days_num': '6', 'incomes': '0x55555556c2c0'}}
+{'line': '103', 'src': 'delete[] P;', 'storage': {'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '104', 'src': 'return 0;', 'storage': {'n': '6', 'P': '0x55555556c2c0'}}
+{'line': '105', 'src': '}', 'storage': {'n': '6', 'P': '0x55555556c2c0'}}

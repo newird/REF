@@ -1,0 +1,67 @@
+{'line': '16', 'src': '{', 'storage': {'price': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable price (Cannot access memory at address 0x0)>', 'n': '32767', 'tmp': '1819242352'}}
+{'line': '17', 'src': 'vector<int> price;', 'storage': {'price': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable price (Cannot access memory at address 0x0)>', 'n': '32767', 'tmp': '1819242352'}}
+{'line': '19', 'src': 'int tmp = 0;', 'storage': {'price': 'std::vector of length 0, capacity 0', 'n': '32767', 'tmp': '1819242352'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '-135899912', 'price': 'std::vector of length 0, capacity 0', 'n': '32767', 'tmp': '0'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '0', 'price': 'std::vector of length 0, capacity 0', 'n': '32767', 'tmp': '0'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '0', 'price': 'std::vector of length 0, capacity 0', 'n': '32767', 'tmp': '6'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '0', 'price': 'std::vector of length 1, capacity 1 = {6}', 'n': '32767', 'tmp': '6'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '1', 'price': 'std::vector of length 1, capacity 1 = {6}', 'n': '32767', 'tmp': '6'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '1', 'price': 'std::vector of length 1, capacity 1 = {6}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '1', 'price': 'std::vector of length 2, capacity 2 = {6, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '2', 'price': 'std::vector of length 2, capacity 2 = {6, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '2', 'price': 'std::vector of length 2, capacity 2 = {6, 3}', 'n': '32767', 'tmp': '10'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '2', 'price': 'std::vector of length 3, capacity 4 = {6, 3, 10}', 'n': '32767', 'tmp': '10'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '3', 'price': 'std::vector of length 3, capacity 4 = {6, 3, 10}', 'n': '32767', 'tmp': '10'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '3', 'price': 'std::vector of length 3, capacity 4 = {6, 3, 10}', 'n': '32767', 'tmp': '4'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '3', 'price': 'std::vector of length 4, capacity 4 = {6, 3, 10, 4}', 'n': '32767', 'tmp': '4'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '4', 'price': 'std::vector of length 4, capacity 4 = {6, 3, 10, 4}', 'n': '32767', 'tmp': '4'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '4', 'price': 'std::vector of length 4, capacity 4 = {6, 3, 10, 4}', 'n': '32767', 'tmp': '5'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '4', 'price': 'std::vector of length 5, capacity 8 = {6, 3, 10, 4, 5}', 'n': '32767', 'tmp': '5'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '5', 'price': 'std::vector of length 5, capacity 8 = {6, 3, 10, 4, 5}', 'n': '32767', 'tmp': '5'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '5', 'price': 'std::vector of length 5, capacity 8 = {6, 3, 10, 4, 5}', 'n': '32767', 'tmp': '6'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '5', 'price': 'std::vector of length 6, capacity 8 = {6, 3, 10, 4, 5, 6}', 'n': '32767', 'tmp': '6'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '6', 'price': 'std::vector of length 6, capacity 8 = {6, 3, 10, 4, 5, 6}', 'n': '32767', 'tmp': '6'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '6', 'price': 'std::vector of length 6, capacity 8 = {6, 3, 10, 4, 5, 6}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '6', 'price': 'std::vector of length 7, capacity 8 = {6, 3, 10, 4, 5, 6, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '7', 'price': 'std::vector of length 7, capacity 8 = {6, 3, 10, 4, 5, 6, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '7', 'price': 'std::vector of length 7, capacity 8 = {6, 3, 10, 4, 5, 6, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '7', 'price': 'std::vector of length 8, capacity 8 = {6, 3, 10, 4, 5, 6, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '8', 'price': 'std::vector of length 8, capacity 8 = {6, 3, 10, 4, 5, 6, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '8', 'price': 'std::vector of length 8, capacity 8 = {6, 3, 10, 4, 5, 6, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '8', 'price': 'std::vector of length 9, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '9', 'price': 'std::vector of length 9, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '9', 'price': 'std::vector of length 9, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '9', 'price': 'std::vector of length 10, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '10', 'price': 'std::vector of length 10, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '10', 'price': 'std::vector of length 10, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '10', 'price': 'std::vector of length 11, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '11', 'price': 'std::vector of length 11, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '11', 'price': 'std::vector of length 11, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '11', 'price': 'std::vector of length 12, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '12', 'price': 'std::vector of length 12, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '12', 'price': 'std::vector of length 12, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '12', 'price': 'std::vector of length 13, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '13', 'price': 'std::vector of length 13, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '13', 'price': 'std::vector of length 13, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '13', 'price': 'std::vector of length 14, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '14', 'price': 'std::vector of length 14, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '14', 'price': 'std::vector of length 14, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '14', 'price': 'std::vector of length 15, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '15', 'price': 'std::vector of length 15, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '15', 'price': 'std::vector of length 15, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '15', 'price': 'std::vector of length 16, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '16', 'price': 'std::vector of length 16, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '16', 'price': 'std::vector of length 16, capacity 16 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '16', 'price': 'std::vector of length 17, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '17', 'price': 'std::vector of length 17, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '17', 'price': 'std::vector of length 17, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '17', 'price': 'std::vector of length 18, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '18', 'price': 'std::vector of length 18, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '18', 'price': 'std::vector of length 18, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '18', 'price': 'std::vector of length 19, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '19', 'price': 'std::vector of length 19, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '19', 'price': 'std::vector of length 19, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '19', 'price': 'std::vector of length 20, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '22', 'src': 'cin >> tmp;', 'storage': {'i': '20', 'price': 'std::vector of length 20, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '23', 'src': 'price.push_back(tmp);', 'storage': {'i': '20', 'price': 'std::vector of length 20, capacity 32 = {6, 3, 10, 4, 5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}', 'n': '32767', 'tmp': '3'}}
+{'line': '20', 'src': 'for (int i = 0; i < n; ++i)', 'storage': {'i': '20', 'price': "Python Exception <class 'RecursionError'>: maximum recursion depth exceeded", 'n': '32767', 'tmp': '3'}}

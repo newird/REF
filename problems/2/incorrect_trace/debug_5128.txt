@@ -1,0 +1,7 @@
+{'line': '5', 'src': '{', 'storage': {'n': '0', 'number': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable number (Cannot access memory at address 0x0)>', 'x': '-96', 'temp': '32767', 'max': '1600677166'}}
+{'line': '7', 'src': 'cin >> n;', 'storage': {'n': '0', 'number': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable number (Cannot access memory at address 0x0)>', 'x': '-96', 'temp': '32767', 'max': '1600677166'}}
+{'line': '8', 'src': 'vector<int> number;', 'storage': {'n': '6', 'number': 'std::vector of length 35184337113658, capacity 35184338113832 = {<error reading variable number (Cannot access memory at address 0x0)>', 'x': '-96', 'temp': '32767', 'max': '1600677166'}}
+{'line': '10', 'src': 'for (int i = 0; i < n; i++)', 'storage': {'i': '-1', 'n': '6', 'number': 'std::vector of length 0, capacity 0', 'x': '-96', 'temp': '32767', 'max': '1600677166'}}
+{'line': '12', 'src': 'cin >> x;', 'storage': {'i': '0', 'n': '6', 'number': 'std::vector of length 0, capacity 0', 'x': '-96', 'temp': '32767', 'max': '1600677166'}}
+{'line': '13', 'src': 'number[i] = x;', 'storage': {'i': '0', 'n': '6', 'number': 'std::vector of length 0, capacity 0', 'x': '3', 'temp': '32767', 'max': '1600677166'}}
+{'line': '13', 'src': 'number[i] = x;', 'storage': {'i': '0', 'n': '6', 'number': 'std::vector of length 0, capacity 0', 'x': '3', 'temp': '32767', 'max': '1600677166'}}

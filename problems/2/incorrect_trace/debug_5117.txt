@@ -1,0 +1,71 @@
+{'line': '35', 'src': '{', 'storage': {'n': '-135899912', 'A': '{data = 0x0, size = -139900694}', 'max': '32767'}}
+{'line': '36', 'src': 'int n = 0;', 'storage': {'n': '-135899912', 'A': '{data = 0x0, size = -139900694}', 'max': '32767'}}
+{'line': '37', 'src': 'cin >> n;', 'storage': {'n': '0', 'A': '{data = 0x0, size = -139900694}', 'max': '32767'}}
+{'line': '38', 'src': 'SeqList A(n);', 'storage': {'n': '6', 'A': '{data = 0x0, size = -139900694}', 'max': '32767'}}
+{'line': '9', 'src': 'size = sz;', 'storage': {'this': '0x7fffffffdf20', 'sz': '6'}}
+{'line': '10', 'src': 'data = new int[size];', 'storage': {'this': '0x7fffffffdf20', 'sz': '6'}}
+{'line': '11', 'src': '}', 'storage': {'this': '0x7fffffffdf20', 'sz': '6'}}
+{'line': '39', 'src': 'int max = A.Max();', 'storage': {'n': '6', 'A': '{data = 0x55555556c2c0, size = 6}', 'max': '32767'}}
+{'line': '22', 'src': 'int max = 0, sum = 0;', 'storage': {'max': '-8088', 'sum': '32767', 'this': '0x7fffffffdf20'}}
+{'line': '23', 'src': 'for(int i = 0; i < size-1; i++)', 'storage': {'i': '6', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '-8416', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '1', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '1', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '1', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '2', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '2', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '2', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '3', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '3', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '3', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '4', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '4', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '4', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '5', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '5', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '5', 'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '23', 'src': 'for(int i = 0; i < size-1; i++)', 'storage': {'i': '0', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '6', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '2', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '2', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '2', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '3', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '3', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '3', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '4', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '4', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '4', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '5', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '5', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '5', 'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '23', 'src': 'for(int i = 0; i < size-1; i++)', 'storage': {'i': '1', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '6', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '3', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '3', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '3', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '4', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '4', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '4', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '5', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '5', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '5', 'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '23', 'src': 'for(int i = 0; i < size-1; i++)', 'storage': {'i': '2', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '6', 'i': '3', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '4', 'i': '3', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '4', 'i': '3', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '4', 'i': '3', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '5', 'i': '3', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '5', 'i': '3', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '5', 'i': '3', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '23', 'src': 'for(int i = 0; i < size-1; i++)', 'storage': {'i': '3', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '6', 'i': '4', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '27', 'src': 'sum = data[j] - data[i];', 'storage': {'j': '5', 'i': '4', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '28', 'src': 'max = (max > size) ? max : sum;', 'storage': {'j': '5', 'i': '4', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '25', 'src': 'for (int j = i+1; j < size; j++)', 'storage': {'j': '5', 'i': '4', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '23', 'src': 'for(int i = 0; i < size-1; i++)', 'storage': {'i': '4', 'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '31', 'src': 'return max;', 'storage': {'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '32', 'src': '}', 'storage': {'max': '0', 'sum': '0', 'this': '0x7fffffffdf20'}}
+{'line': '40', 'src': 'cout << max;', 'storage': {'n': '6', 'A': '{data = 0x55555556c2c0, size = 6}', 'max': '0'}}
+{'line': '41', 'src': 'return 0;', 'storage': {'n': '6', 'A': '{data = 0x55555556c2c0, size = 6}', 'max': '0'}}
+{'line': '42', 'src': '}', 'storage': {'n': '6', 'A': '{data = 0x55555556c2c0, size = 6}', 'max': '0'}}
+{'line': '12', 'src': '~SeqList() { delete[] data; }', 'storage': {'this': '0x7fffffffdf20', '__in_chrg': '<optimized out>'}}

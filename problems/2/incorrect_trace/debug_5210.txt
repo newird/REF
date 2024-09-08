@@ -1,0 +1,155 @@
+{'line': '3', 'src': 'int main(){', 'storage': {'temp': '4607', 'day': '0', 'a': '<error reading variable a (value requires 562949393818540 bytes, which is more than max-value-size)>', 'min': '-96', 'max': '-1', 'st': '0', 'result': '1600677166', 'z': '1819242352'}}
+{'line': '36', 'src': '}', 'storage': {'temp': '4607', 'day': '0', 'a': '<error reading variable a (value requires 562949393818540 bytes, which is more than max-value-size)>', 'min': '-96', 'max': '-1', 'st': '0', 'result': '1600677166', 'z': '1819242352'}}
+{'line': '6', 'src': 'cin>>day;', 'storage': {'temp': '4607', 'day': '0', 'a': '<error reading variable a (value requires 562949393818540 bytes, which is more than max-value-size)>', 'min': '-96', 'max': '-1', 'st': '0', 'result': '1600677166', 'z': '1819242352'}}
+{'line': '7', 'src': 'int a[day];', 'storage': {'temp': '4607', 'day': '6', 'a': '<error reading variable a (value requires 562949393818540 bytes, which is more than max-value-size)>', 'min': '-96', 'max': '-1', 'st': '0', 'result': '1600677166', 'z': '1819242352'}}
+{'line': '9', 'src': 'int max=0;', 'storage': {'temp': '4607', 'day': '6', 'a': '{-8448, 32767, -134230016, 32767, -8368, 32767}', 'min': '-96', 'max': '-1', 'st': '0', 'result': '1600677166', 'z': '1819242352'}}
+{'line': '11', 'src': 'int result=0;', 'storage': {'temp': '4607', 'day': '6', 'a': '{-8448, 32767, -134230016, 32767, -8368, 32767}', 'min': '-96', 'max': '0', 'st': '0', 'result': '1600677166', 'z': '1819242352'}}
+{'line': '12', 'src': 'int z=1;', 'storage': {'temp': '4607', 'day': '6', 'a': '{-8448, 32767, -134230016, 32767, -8368, 32767}', 'min': '-96', 'max': '0', 'st': '0', 'result': '0', 'z': '1819242352'}}
+{'line': '13', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '-135899912', 'temp': '4607', 'day': '6', 'a': '{-8448, 32767, -134230016, 32767, -8368, 32767}', 'min': '-96', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '14', 'src': 'cin>>temp;', 'storage': {'i': '0', 'temp': '4607', 'day': '6', 'a': '{-8448, 32767, -134230016, 32767, -8368, 32767}', 'min': '-96', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '15', 'src': 'a[i]=temp;', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'a': '{-8448, 32767, -134230016, 32767, -8368, 32767}', 'min': '-96', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '16', 'src': 'if(i==0){min=temp;}', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 32767, -134230016, 32767, -8368, 32767}', 'min': '-96', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '17', 'src': 'if(min>temp){', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 32767, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '13', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 32767, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '14', 'src': 'cin>>temp;', 'storage': {'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 32767, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '15', 'src': 'a[i]=temp;', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'a': '{3, 32767, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '16', 'src': 'if(i==0){min=temp;}', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'a': '{3, 10, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '17', 'src': 'if(min>temp){', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'a': '{3, 10, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '13', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '1', 'temp': '10', 'day': '6', 'a': '{3, 10, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '14', 'src': 'cin>>temp;', 'storage': {'i': '2', 'temp': '10', 'day': '6', 'a': '{3, 10, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '15', 'src': 'a[i]=temp;', 'storage': {'i': '2', 'temp': '4', 'day': '6', 'a': '{3, 10, -134230016, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '16', 'src': 'if(i==0){min=temp;}', 'storage': {'i': '2', 'temp': '4', 'day': '6', 'a': '{3, 10, 4, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '17', 'src': 'if(min>temp){', 'storage': {'i': '2', 'temp': '4', 'day': '6', 'a': '{3, 10, 4, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '13', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '2', 'temp': '4', 'day': '6', 'a': '{3, 10, 4, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '14', 'src': 'cin>>temp;', 'storage': {'i': '3', 'temp': '4', 'day': '6', 'a': '{3, 10, 4, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '15', 'src': 'a[i]=temp;', 'storage': {'i': '3', 'temp': '5', 'day': '6', 'a': '{3, 10, 4, 32767, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '16', 'src': 'if(i==0){min=temp;}', 'storage': {'i': '3', 'temp': '5', 'day': '6', 'a': '{3, 10, 4, 5, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '17', 'src': 'if(min>temp){', 'storage': {'i': '3', 'temp': '5', 'day': '6', 'a': '{3, 10, 4, 5, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '13', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '3', 'temp': '5', 'day': '6', 'a': '{3, 10, 4, 5, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '14', 'src': 'cin>>temp;', 'storage': {'i': '4', 'temp': '5', 'day': '6', 'a': '{3, 10, 4, 5, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '15', 'src': 'a[i]=temp;', 'storage': {'i': '4', 'temp': '6', 'day': '6', 'a': '{3, 10, 4, 5, -8368, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '16', 'src': 'if(i==0){min=temp;}', 'storage': {'i': '4', 'temp': '6', 'day': '6', 'a': '{3, 10, 4, 5, 6, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '17', 'src': 'if(min>temp){', 'storage': {'i': '4', 'temp': '6', 'day': '6', 'a': '{3, 10, 4, 5, 6, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '13', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '4', 'temp': '6', 'day': '6', 'a': '{3, 10, 4, 5, 6, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '14', 'src': 'cin>>temp;', 'storage': {'i': '5', 'temp': '6', 'day': '6', 'a': '{3, 10, 4, 5, 6, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '15', 'src': 'a[i]=temp;', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 32767}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '16', 'src': 'if(i==0){min=temp;}', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '17', 'src': 'if(min>temp){', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '13', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '22', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '32767', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '23', 'src': 'if(max>result){result=max;}', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '0', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '0', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '0', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '0', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '0', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '0', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '1', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '1', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '1', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '1', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '2', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '2', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '2', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '2', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '3', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '3', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '3', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '3', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '4', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '4', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '4', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '4', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '5', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '5', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '5', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '5', 'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '22', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '0', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '23', 'src': 'if(max>result){result=max;}', 'storage': {'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '6', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '1', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '3', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '1', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '0', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '1', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '10', 'max': '0', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '1', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '10', 'max': '0', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '2', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '10', 'max': '0', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '2', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '10', 'max': '0', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '2', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '10', 'max': '0', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '28', 'src': 'min=a[j];', 'storage': {'j': '2', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '10', 'max': '0', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '29', 'src': 'max=a[i]-a[j];', 'storage': {'j': '2', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '0', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '2', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '3', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '3', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '3', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '3', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '4', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '4', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '4', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '4', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '5', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '5', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '5', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '28', 'src': 'min=a[j];', 'storage': {'j': '5', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '29', 'src': 'max=a[i]-a[j];', 'storage': {'j': '5', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '6', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '5', 'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '7', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '22', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '1', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '7', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '23', 'src': 'if(max>result){result=max;}', 'storage': {'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '7', 'st': '10', 'result': '0', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '6', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '7', 'st': '10', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '2', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '7', 'st': '10', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '2', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '2', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '2', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '3', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '3', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '3', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '3', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '4', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '4', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '4', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '4', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '5', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '5', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '5', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '28', 'src': 'min=a[j];', 'storage': {'j': '5', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '4', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '29', 'src': 'max=a[i]-a[j];', 'storage': {'j': '5', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '7', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '5', 'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '1', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '22', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '2', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '1', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '23', 'src': 'if(max>result){result=max;}', 'storage': {'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '1', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '6', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '1', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '3', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '1', 'st': '4', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '3', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '3', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '3', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '4', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '4', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '4', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '4', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '5', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '5', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '5', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '28', 'src': 'min=a[j];', 'storage': {'j': '5', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '5', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '29', 'src': 'max=a[i]-a[j];', 'storage': {'j': '5', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '1', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '5', 'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '2', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '22', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '3', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '2', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '23', 'src': 'if(max>result){result=max;}', 'storage': {'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '2', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '6', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '2', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '4', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '2', 'st': '5', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '4', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '2', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '4', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '6', 'max': '2', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '4', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '6', 'max': '2', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '5', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '6', 'max': '2', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '5', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '6', 'max': '2', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '5', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '6', 'max': '2', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '28', 'src': 'min=a[j];', 'storage': {'j': '5', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '6', 'max': '2', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '29', 'src': 'max=a[i]-a[j];', 'storage': {'j': '5', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '2', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '5', 'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '22', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '4', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '23', 'src': 'if(max>result){result=max;}', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '6', 'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '25', 'src': 'st=a[i];', 'storage': {'j': '5', 'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '6', 'result': '7', 'z': '1'}}
+{'line': '26', 'src': 'if(j==i){min=a[j];}', 'storage': {'j': '5', 'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '3', 'result': '7', 'z': '1'}}
+{'line': '27', 'src': 'if(min>a[j]){', 'storage': {'j': '5', 'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '3', 'result': '7', 'z': '1'}}
+{'line': '24', 'src': 'for(int j=i;j<day;j++){', 'storage': {'j': '5', 'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '3', 'result': '7', 'z': '1'}}
+{'line': '22', 'src': 'for(int i=0;i<day;i++){', 'storage': {'i': '5', 'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '3', 'result': '7', 'z': '1'}}
+{'line': '33', 'src': 'if(z==day){result=0;}', 'storage': {'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '3', 'result': '7', 'z': '1'}}
+{'line': '34', 'src': 'cout<<result;', 'storage': {'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '3', 'result': '7', 'z': '1'}}
+{'line': '35', 'src': 'return 0;', 'storage': {'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '3', 'result': '7', 'z': '1'}}
+{'line': '36', 'src': '}', 'storage': {'temp': '3', 'day': '6', 'a': '{3, 10, 4, 5, 6, 3}', 'min': '3', 'max': '3', 'st': '3', 'result': '7', 'z': '1'}}

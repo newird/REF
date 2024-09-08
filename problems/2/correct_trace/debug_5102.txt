@@ -1,0 +1,36 @@
+{'line': '8', 'src': '{', 'storage': {}}
+{'line': '9', 'src': 'cin>>n;', 'storage': {}}
+{'line': '10', 'src': 'for(int i=1;i<=n;i++)', 'storage': {'i': '0'}}
+{'line': '12', 'src': 'cin>>a;', 'storage': {'i': '1'}}
+{'line': '13', 'src': 'if(i==1)', 'storage': {'i': '1'}}
+{'line': '15', 'src': 'minn=a;', 'storage': {'i': '1'}}
+{'line': '20', 'src': 'minn=min(minn,a);', 'storage': {'i': '1'}}
+{'line': '10', 'src': 'for(int i=1;i<=n;i++)', 'storage': {'i': '1'}}
+{'line': '12', 'src': 'cin>>a;', 'storage': {'i': '2'}}
+{'line': '13', 'src': 'if(i==1)', 'storage': {'i': '2'}}
+{'line': '18', 'src': 'ans=max(ans,a-minn);', 'storage': {'i': '2'}}
+{'line': '20', 'src': 'minn=min(minn,a);', 'storage': {'i': '2'}}
+{'line': '10', 'src': 'for(int i=1;i<=n;i++)', 'storage': {'i': '2'}}
+{'line': '12', 'src': 'cin>>a;', 'storage': {'i': '3'}}
+{'line': '13', 'src': 'if(i==1)', 'storage': {'i': '3'}}
+{'line': '18', 'src': 'ans=max(ans,a-minn);', 'storage': {'i': '3'}}
+{'line': '20', 'src': 'minn=min(minn,a);', 'storage': {'i': '3'}}
+{'line': '10', 'src': 'for(int i=1;i<=n;i++)', 'storage': {'i': '3'}}
+{'line': '12', 'src': 'cin>>a;', 'storage': {'i': '4'}}
+{'line': '13', 'src': 'if(i==1)', 'storage': {'i': '4'}}
+{'line': '18', 'src': 'ans=max(ans,a-minn);', 'storage': {'i': '4'}}
+{'line': '20', 'src': 'minn=min(minn,a);', 'storage': {'i': '4'}}
+{'line': '10', 'src': 'for(int i=1;i<=n;i++)', 'storage': {'i': '4'}}
+{'line': '12', 'src': 'cin>>a;', 'storage': {'i': '5'}}
+{'line': '13', 'src': 'if(i==1)', 'storage': {'i': '5'}}
+{'line': '18', 'src': 'ans=max(ans,a-minn);', 'storage': {'i': '5'}}
+{'line': '20', 'src': 'minn=min(minn,a);', 'storage': {'i': '5'}}
+{'line': '10', 'src': 'for(int i=1;i<=n;i++)', 'storage': {'i': '5'}}
+{'line': '12', 'src': 'cin>>a;', 'storage': {'i': '6'}}
+{'line': '13', 'src': 'if(i==1)', 'storage': {'i': '6'}}
+{'line': '18', 'src': 'ans=max(ans,a-minn);', 'storage': {'i': '6'}}
+{'line': '20', 'src': 'minn=min(minn,a);', 'storage': {'i': '6'}}
+{'line': '10', 'src': 'for(int i=1;i<=n;i++)', 'storage': {'i': '6'}}
+{'line': '23', 'src': 'cout<<ans<<"\\n";', 'storage': {}}
+{'line': '24', 'src': 'return 0;', 'storage': {}}
+{'line': '25', 'src': '}', 'storage': {}}
