@@ -2,7 +2,6 @@ import { Dolos } from "@dodona/dolos-lib";
 import { readdir } from "fs/promises";
 import path from "path";
 
-import { stdin as input, stdout as output } from "node:process";
 
 const args = process.argv;
 const mainFile = args[2];
@@ -57,4 +56,17 @@ async function compareFiles(mainFile, directory) {
   }
 }
 
-compareFiles(mainFile, directoryPath).catch(console.error);
+async function main() {
+  const startTime = performance.now();
+  try {
+    await compareFiles(mainFile, directoryPath);
+  } catch (error) {
+    console.error(error);
+  } finally {
+    const endTime = performance.now();
+    const executionTime = endTime - startTime;
+    console.log(`${executionTime} ms`);
+  }
+}
+
+main();
