@@ -1,9 +1,16 @@
 import difflib
 from typing import List
+
 from map_variable import rename_var_in_file
+from trace_align import *
 
 
-def _heuristic_replace_match(a_tokens: List[str], b_tokens: List[str]):
+def _heuristic_replace_match(
+    a_tokens: List[str],
+    b_tokens: List[str],
+    dynamic_align,
+    similarity_threshold: float = 0.85,
+):
     diff_seqs = []
     a_len = len(a_tokens)
     b_len = len(b_tokens)
@@ -32,15 +39,22 @@ def _heuristic_replace_match(a_tokens: List[str], b_tokens: List[str]):
         elif bt == "":
             diff_seqs.append([at, bt, "delete"])
         else:
-            diff_seqs.append([at, bt, "replace"])
+            similarity = difflib.SequenceMatcher(None, at, bt).ratio()
+            if similarity >= similarity_threshold:
+                diff_seqs.append([at, bt, "equal"])
+            elif dynamic_align and at in dynamic_align and dynamic_align[at] == bt:
+                diff_seqs.append([at, bt, "equal"])
+            else:
+                diff_seqs.append([at, bt, "replace"])
     return diff_seqs
 
 
-def construct_diff_sequence(a: List[str], b: List[str]) -> List[List[str]]:
+def construct_diff_sequence(
+    a: List[str], b: List[str], dynamic_align
+) -> List[List[str]]:
     diff_seqs = []
-    diff = difflib.SequenceMatcher(None, a, b)
-
-    for op, a_i, a_j, b_i, b_j in diff.get_opcodes():
+    static_align = difflib.SequenceMatcher(None, a, b)
+    for op, a_i, a_j, b_i, b_j in static_align.get_opcodes():
         a_tokens = a[a_i:a_j]
         b_tokens = b[b_i:b_j]
         if op == "delete":
@@ -53,8 +67,7 @@ def construct_diff_sequence(a: List[str], b: List[str]) -> List[List[str]]:
             for at, bt in zip(a_tokens, b_tokens):
                 diff_seqs.append([at, bt, op])
         else:
-            # replace
-            diff_seqs += _heuristic_replace_match(a_tokens, b_tokens)
+            diff_seqs += _heuristic_replace_match(a_tokens, b_tokens, dynamic_align)
 
     return diff_seqs
 
@@ -65,10 +78,17 @@ def read_from_file(file_path: str) -> List[str]:
 
 
 def compare_files(file_a: str, file_b: str) -> List[List[str]]:
-    b = read_from_file(file_b)
-    a = rename_var_in_file(file_a, file_b)
-    a = a.splitlines()
-    return construct_diff_sequence(a, b)
+    with_rn = False
+    with_dy = True
+    dynamic_align = adaptar(sys.argv[1], sys.argv[2], with_dy)
+    if with_rn:
+        b = read_from_file(file_b)
+        a = rename_var_in_file(file_a, file_b)
+        a = a.splitlines()
+    else:
+        a = read_from_file(file_a)
+        b = read_from_file(file_b)
+    return construct_diff_sequence(a, b, dynamic_align)
 
 
 def is_input(a, b):
@@ -94,12 +114,9 @@ def is_macro(a: str, b: str) -> bool:
         return False
 
 
-if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) != 3:
-        print("Usage: python diff.py <correct_file> <incorrect_file>")
-    diff_seqs = compare_files(sys.argv[1], sys.argv[2])
+def show_aligned(diff_seqs):
+    pair = 0
+    accurracy = 0
     for seq in diff_seqs:
         if is_input(seq[0], seq[1]):
             continue
@@ -107,5 +124,30 @@ if __name__ == "__main__":
             continue
         if is_macro(seq[0], seq[1]):
             continue
-        if seq[2] != "equal":
-            print(seq)
+        if seq[2] == "equal":
+            if not seq[0] and not seq[1]:
+                continue
+            if seq[0].strip() == "{" or seq[0].strip() == "}":
+                continue
+            dist = distance(seq[0], seq[1])
+            similarity = 1 - dist / max(len(seq[0]), len(seq[1]))
+            pair += 1
+            accurracy += similarity
+            print(seq[0] + " <-> " + seq[1])
+    if pair == 0:
+        print(0)
+    else:
+        print(str(accurracy / pair))
+
+
+if __name__ == "__main__":
+    import sys
+    import time
+    from Levenshtein import distance
+
+    if len(sys.argv) != 3:
+        print("Usage: python align.py <incorrect_file> <correct_file>")
+    start = time.time()
+    diff_seqs = compare_files(sys.argv[1], sys.argv[2])
+    print(time.time() - start)
+    show_aligned(diff_seqs)

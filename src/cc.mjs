@@ -43,14 +43,12 @@ async function compareFiles(mainFile, directory) {
     // Sort matches by similarity in descending order
     matches.sort((a, b) => b.similarity - a.similarity);
 
-    // Take top 10 matches
-    const topMatches = matches.slice(0, 10);
+    const topMatches = matches.slice(0, 3);
 
-    // Print rightFile paths of top 10 matches
-    topMatches.forEach((match) => console.log(match.path));
-    // for (const pair of report.allPairs()) {
-    //   console.log(pair);
-    // }
+    topMatches.forEach((match) => {
+      console.log(match.path);
+      console.log(match.similarity);
+    });
   } else {
     console.log("No files to compare.");
   }
@@ -65,7 +63,7 @@ async function main() {
   } finally {
     const endTime = performance.now();
     const executionTime = endTime - startTime;
-    console.log(`${executionTime} ms`);
+    console.log(`${executionTime}`);
   }
 }
 

@@ -5,22 +5,20 @@ mkdir -p cluster
 mkdir -p condense_cluster
 
 # Loop through directories 0 to 99
-for i in (seq 0 99)
+for i in wronganswer partiallycorrectanswer
     set dir $i
-    # Check if the directory exists
     if test -d $dir
-        # Iterate over files in the directory
         for file in $dir/*
-            set base (basename $file .cpp)
+            set base (basename $file .c)
 
             echo $file
             echo $file >cluster/$base
-            if test -d 100
-                node cc.js $file 100 >>cluster/$base
+            if test -d correctanswer
+                node cc.mjs $file correctanswer >>cluster/$base
             end
             echo $file >condense_cluster/$base
             if test -d condense
-                node cc.js $file 100 >>condense_cluster/$base
+                node cc.mjs $file correctanswer >>condense_cluster/$base
             end
         end
     end

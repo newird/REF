@@ -27,8 +27,8 @@ def Map(correct_file, incorrect_file):
     incorrect_depend_graph = construct_dependency_graph(incorrect_ast.root_node)
     correct_depend_graph = construct_dependency_graph(correct_ast.root_node)
 
-    for k, v in one_to_one.items():
-        print(f"{k} -> {v}")
+    # for k, v in one_to_one.items():
+    #     print(f"{k} -> {v}")
     # Map dependencies based on constructed dependency graphs
     reverse_correct_graph = {}
     for var, deps in correct_depend_graph.items():

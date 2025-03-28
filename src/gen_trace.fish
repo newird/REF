@@ -1,11 +1,10 @@
 set base_dir (pwd)
 
-mkdir -p $base_dir/correct_trace
-mkdir -p $base_dir/incorrect_trace
+mkdir -p $base_dir/trace
 
 function process_files
     set dir_name $argv[1]
-    set target_dir $base_dir/{$dir_name}_trace
+    set target_dir $base_dir/trace
 
     for file in $base_dir/$dir_name/*
         if test -f $file
@@ -17,7 +16,7 @@ function process_files
 
             echo finish
             # Move the debug file to the appropriate trace directory
-            mv $base_dir/debug_$base.txt $target_dir/debug_$base.txt
+            mv $base_dir/$base.txt $target_dir/$base.txt
 
         end
     end
@@ -27,4 +26,4 @@ end
 process_files correct
 process_files incorrect
 
-rm debug_*
+rm *.txt
